@@ -2511,6 +2511,16 @@
     }
   }
 
+  .dark\:border-gray-600\/50:is(.dark *) {
+    border-color: color-mix(in srgb, oklch(.446 .03 256.802) 50%, transparent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .dark\:border-gray-600\/50:is(.dark *) {
+      border-color: color-mix(in oklab, var(--color-gray-600) 50%, transparent);
+    }
+  }
+
   .dark\:border-gray-700:is(.dark *) {
     border-color: var(--color-gray-700);
   }
@@ -2525,13 +2535,23 @@
     }
   }
 
-  .dark\:border-gray-700\/30:is(.dark *) {
-    border-color: color-mix(in srgb, oklch(.373 .034 259.733) 30%, transparent);
+  .dark\:border-gray-700\/40:is(.dark *) {
+    border-color: color-mix(in srgb, oklch(.373 .034 259.733) 40%, transparent);
   }
 
   @supports (color: color-mix(in lab, red, red)) {
-    .dark\:border-gray-700\/30:is(.dark *) {
-      border-color: color-mix(in oklab, var(--color-gray-700) 30%, transparent);
+    .dark\:border-gray-700\/40:is(.dark *) {
+      border-color: color-mix(in oklab, var(--color-gray-700) 40%, transparent);
+    }
+  }
+
+  .dark\:border-gray-700\/50:is(.dark *) {
+    border-color: color-mix(in srgb, oklch(.373 .034 259.733) 50%, transparent);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .dark\:border-gray-700\/50:is(.dark *) {
+      border-color: color-mix(in oklab, var(--color-gray-700) 50%, transparent);
     }
   }
 
@@ -2563,18 +2583,18 @@
     }
   }
 
-  .dark\:bg-gray-800:is(.dark *) {
-    background-color: var(--color-gray-800);
-  }
-
-  .dark\:bg-gray-800\/30:is(.dark *) {
-    background-color: color-mix(in srgb, oklch(.278 .033 256.848) 30%, transparent);
+  .dark\:bg-gray-700\/80:is(.dark *) {
+    background-color: color-mix(in srgb, oklch(.373 .034 259.733) 80%, transparent);
   }
 
   @supports (color: color-mix(in lab, red, red)) {
-    .dark\:bg-gray-800\/30:is(.dark *) {
-      background-color: color-mix(in oklab, var(--color-gray-800) 30%, transparent);
+    .dark\:bg-gray-700\/80:is(.dark *) {
+      background-color: color-mix(in oklab, var(--color-gray-700) 80%, transparent);
     }
+  }
+
+  .dark\:bg-gray-800:is(.dark *) {
+    background-color: var(--color-gray-800);
   }
 
   .dark\:bg-gray-800\/40:is(.dark *) {
@@ -2594,16 +2614,6 @@
   @supports (color: color-mix(in lab, red, red)) {
     .dark\:bg-gray-800\/50:is(.dark *) {
       background-color: color-mix(in oklab, var(--color-gray-800) 50%, transparent);
-    }
-  }
-
-  .dark\:bg-gray-800\/60:is(.dark *) {
-    background-color: color-mix(in srgb, oklch(.278 .033 256.848) 60%, transparent);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .dark\:bg-gray-800\/60:is(.dark *) {
-      background-color: color-mix(in oklab, var(--color-gray-800) 60%, transparent);
     }
   }
 
@@ -2840,13 +2850,13 @@
   }
 
   @media (hover: hover) {
-    .dark\:hover\:border-gray-700\/30:is(.dark *):hover {
-      border-color: color-mix(in srgb, oklch(.373 .034 259.733) 30%, transparent);
+    .dark\:hover\:border-gray-600\/60:is(.dark *):hover {
+      border-color: color-mix(in srgb, oklch(.446 .03 256.802) 60%, transparent);
     }
 
     @supports (color: color-mix(in lab, red, red)) {
-      .dark\:hover\:border-gray-700\/30:is(.dark *):hover {
-        border-color: color-mix(in oklab, var(--color-gray-700) 30%, transparent);
+      .dark\:hover\:border-gray-600\/60:is(.dark *):hover {
+        border-color: color-mix(in oklab, var(--color-gray-600) 60%, transparent);
       }
     }
   }
@@ -2871,6 +2881,18 @@
     @supports (color: color-mix(in lab, red, red)) {
       .dark\:hover\:bg-gray-700\/70:is(.dark *):hover {
         background-color: color-mix(in oklab, var(--color-gray-700) 70%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
+    .dark\:hover\:bg-gray-700\/80:is(.dark *):hover {
+      background-color: color-mix(in srgb, oklch(.373 .034 259.733) 80%, transparent);
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .dark\:hover\:bg-gray-700\/80:is(.dark *):hover {
+        background-color: color-mix(in oklab, var(--color-gray-700) 80%, transparent);
       }
     }
   }

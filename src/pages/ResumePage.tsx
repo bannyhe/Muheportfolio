@@ -109,7 +109,7 @@ export function ResumePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="cursor-pointer backdrop-blur-xl bg-white/30 dark:bg-gray-800/30 border border-white/20 dark:border-gray-700/20 text-gray-700 dark:text-gray-200 hover:bg-white/50 dark:hover:bg-gray-800/50 hover:border-white/30 dark:hover:border-gray-700/30 transition-all duration-300 shadow-sm hover:shadow-md text-sm">
+              <Button className="cursor-pointer backdrop-blur-xl bg-white/30 dark:bg-gray-800/70 border border-white/20 dark:border-gray-700/50 text-gray-700 dark:text-gray-200 hover:bg-white/50 dark:hover:bg-gray-700/80 hover:border-white/30 dark:hover:border-gray-600/60 transition-all duration-300 shadow-sm hover:shadow-md text-sm">
                 <Download className="w-4 h-4 mr-2" />
                 Download PDF
               </Button>
@@ -122,7 +122,7 @@ export function ResumePage() {
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.6 }}
-            className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/40 border border-white/20 dark:border-gray-700/20 rounded-3xl p-12 shadow-2xl mb-12"
+            className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/70 border border-white/20 dark:border-gray-700/40 rounded-3xl p-12 shadow-2xl mb-12"
           >
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#102F56] to-[#1a4d7a] dark:from-blue-600 dark:to-blue-700 flex items-center justify-center shadow-lg">
@@ -140,7 +140,7 @@ export function ResumePage() {
                   initial={{ opacity: 0, x: -30 }}
                   animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="p-6 backdrop-blur-xl bg-white/60 dark:bg-gray-800/60 border border-white/30 dark:border-gray-700/30 rounded-2xl hover:shadow-xl transition-all duration-300"
+                  className="p-6 backdrop-blur-xl bg-white/60 dark:bg-gray-700/80 border border-white/30 dark:border-gray-600/50 rounded-2xl hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                     <div>
@@ -173,7 +173,7 @@ export function ResumePage() {
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/40 border border-white/20 dark:border-gray-700/20 rounded-3xl p-12 shadow-2xl mb-12"
+            className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/70 border border-white/20 dark:border-gray-700/40 rounded-3xl p-12 shadow-2xl mb-12"
           >
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
@@ -191,7 +191,7 @@ export function ResumePage() {
                   initial={{ opacity: 0, x: -30 }}
                   animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
                   transition={{ duration: 0.5, delay: 0.2 + index * 0.1 }}
-                  className="p-6 backdrop-blur-xl bg-white/60 dark:bg-gray-800/60 border border-white/30 dark:border-gray-700/30 rounded-2xl hover:shadow-xl transition-all duration-300"
+                  className="p-6 backdrop-blur-xl bg-white/60 dark:bg-gray-700/80 border border-white/30 dark:border-gray-600/50 rounded-2xl hover:shadow-xl transition-all duration-300"
                 >
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-3">
                     <div>
@@ -218,7 +218,7 @@ export function ResumePage() {
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/40 border border-white/20 dark:border-gray-700/20 rounded-3xl p-8 shadow-2xl lg:col-span-3"
+              className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/70 border border-white/20 dark:border-gray-700/40 rounded-3xl p-8 shadow-2xl lg:col-span-3"
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#102F56] to-[#1a4d7a] dark:from-blue-600 dark:to-blue-700 flex items-center justify-center shadow-lg">
@@ -252,7 +252,7 @@ export function ResumePage() {
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/40 border border-white/20 dark:border-gray-700/20 rounded-3xl p-8 shadow-2xl lg:col-span-2"
+              className="backdrop-blur-2xl bg-white/40 dark:bg-gray-800/70 border border-white/20 dark:border-gray-700/40 rounded-3xl p-8 shadow-2xl lg:col-span-2"
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center shadow-lg">
@@ -269,7 +269,7 @@ export function ResumePage() {
                     initial={{ opacity: 0, x: -20 }}
                     animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
                     transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
-                    className="flex items-center gap-3 p-4 backdrop-blur-xl bg-white/60 dark:bg-gray-800/60 border border-white/30 dark:border-gray-700/30 rounded-xl hover:shadow-lg transition-all duration-300"
+                    className="flex items-center gap-3 p-4 backdrop-blur-xl bg-white/60 dark:bg-gray-700/80 border border-white/30 dark:border-gray-600/50 rounded-xl hover:shadow-lg transition-all duration-300"
                   >
                     <span className="text-purple-600 dark:text-purple-400 flex-shrink-0">✓</span>
                     <span className="text-gray-700 dark:text-gray-200 text-sm break-words">{cert}</span>
