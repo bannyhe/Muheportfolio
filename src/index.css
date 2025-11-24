@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css");
 /*! tailwindcss v4.1.3 | MIT License | https://tailwindcss.com */
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
@@ -840,6 +842,14 @@
     height: 60px;
   }
 
+  .h-\[500px\] {
+    height: 500px;
+  }
+
+  .h-\[600px\] {
+    height: 600px;
+  }
+
   .h-auto {
     height: auto;
   }
@@ -1576,6 +1586,10 @@
 
   .object-cover {
     object-fit: cover;
+  }
+
+  .object-top {
+    object-position: top;
   }
 
   .p-1 {
@@ -2988,6 +3002,8 @@
 }
 
 
+
+
 :root {
   --font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   --font-size: 19.2px;
@@ -3069,6 +3085,49 @@
 
 html {
   font-size: var(--font-size);
+}
+
+.slick-prev, .slick-next {
+  z-index: 10 !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  opacity: .85 !important;
+  color: #374151 !important;
+  font-size: 50px !important;
+}
+
+.slick-prev:hover:before, .slick-next:hover:before {
+  opacity: 1 !important;
+}
+
+.dark .slick-prev:before, .dark .slick-next:before {
+  color: #e5e7eb !important;
+  opacity: .9 !important;
+}
+
+.dark .slick-prev:hover:before, .dark .slick-next:hover:before {
+  opacity: 1 !important;
+}
+
+.slick-prev {
+  left: -60px !important;
+}
+
+.slick-next {
+  right: -60px !important;
+}
+
+@media (width <= 768px) {
+  .slick-prev {
+    left: 10px !important;
+  }
+
+  .slick-next {
+    right: 10px !important;
+  }
 }
 
 @property --tw-translate-x {

@@ -5,7 +5,50 @@ import { ExternalLink, ChevronUp, X } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
 import xenithImg from "figma:asset/602a1beede549ed02fd7f4ef5e904bf2960ca599.png";
-import heatmapImg from "figma:asset/6a0f6dc6ce43fbb4eaec786e594f67199f9d3c85.png";
+import heatmapImg1 from "figma:asset/150a49ee418dd2392bf5806add4225ada4b15c66.png";
+import heatmapImg2 from "figma:asset/8e8e90d2e701c1e829d4f0f81149aa8bf450f645.png";
+import teamPhoto from "figma:asset/2235cbe9c23b92d3410171233563bbdac59cfdd8.png";
+import hustlePhoto from "figma:asset/849c52a2a9902dd0b76c5142551d6cf958db2fdd.png";
+import pushPullModel from "figma:asset/d034c07b0905792d92a9eba55dc6d1976d5283f1.png";
+import mobileApp1 from "figma:asset/88a93f770008319209519941a0aa84f48c949793.png";
+import mobileApp2 from "figma:asset/4edcc37504da5560b55b45a6cbead6afb06ccffc.png";
+import mobileApp3 from "figma:asset/a2b30b42a1f8d229e47f05de112e54a0cae4fb45.png";
+import mobileApp4 from "figma:asset/2c7a1305edefd64d670b292b37ce05feffe5ea55.png";
+import mobileApp5 from "figma:asset/0fbffe5f9ec71ec4b8af6ad90b43aa964ecc1601.png";
+import mobileApp6 from "figma:asset/1dc24dcd7fab0e9e3cb430817c8568e67d072a77.png";
+import mobileApp7 from "figma:asset/c3823c970fcdb64f1d437c487421117b1c6c6550.png";
+import mobileApp8 from "figma:asset/6d04d9aca4bf3181f7f4ab7fc5c99230eabf41d8.png";
+import mobileApp9 from "figma:asset/317b729cac9c1a595d0a12595643fb9442f8d03d.png";
+import serialFlowChart from "figma:asset/997497a4bda9b7d3aab1a39df34bc71bd9ee0750.png";
+import wireframeSystem from "figma:asset/389fc8f26b572887a8d7374231487aed5ee18f66.png";
+import newOrderPage from "figma:asset/ec066252638866c32498c8a03b35f423a0df9b93.png";
+import orderDetailPage from "figma:asset/8fd1dd90494b44ded6965dcc00244091229fcaa7.png";
+import compareHelmet1 from "figma:asset/ac4d3e811757f8257ab4b9779222aee5e40b71a6.png";
+import compareHelmet2 from "figma:asset/7987b8b8dedd2e1d978c0da693bddf906b2bc055.png";
+import compareHelmet3 from "figma:asset/634f0c6c7cb9829c73f2207c41c00e948933aec6.png";
+import heroMobile1 from "figma:asset/f4a5ae525215f0a50217cdb1912ce4d23ce31d73.png";
+import heroMobile2 from "figma:asset/4bd6c87f039f1706d6568e5fa005d86581c88fd2.png";
+import heroMobile3 from "figma:asset/c104a2b1d8d98c83354bdcb7e3ca51ee9794214f.png";
+import mainMenu1 from "figma:asset/3ce26da8033cf9893444b42ea0d7e74485a0c7f8.png";
+import mainMenu2 from "figma:asset/af79701ba961ddacadc8de350a80f68b3e1e727a.png";
+import mainMenu3 from "figma:asset/49bc549235f402b6b760a77b5441b0958c6f6eaf.png";
+import helmetLineup1 from "figma:asset/3427eefd3253dd68ec9072fb94dd2b049fdd66d2.png";
+import helmetLineup2 from "figma:asset/753037e95a58be0247a5074de21295a23e9f11fd.png";
+import helmetLineup3 from "figma:asset/a8bcdd68c8c2c48d11ae359b4a44207f1ac6a34b.png";
+import footer1 from "figma:asset/65a683b058e13160409c830f157cb6475b9aff8b.png";
+import footer2 from "figma:asset/c7ecc554818c848bcf127095b3d9b4a5b1ec824f.png";
+import footer3 from "figma:asset/c9e582ed1a87f7ffbc845f88f0281ebbd4d7f57c.png";
+import keyFeaturesImg from "figma:asset/478b4ba2c89125772e326cdedd42b8e708aad443.png";
+import heuristicEvalImg from "figma:asset/4f8a095942bb8201debb512c1b09e2e4848e0de7.png";
+import previousContentStrategyImg from "figma:asset/fd29ed0f7d5c1ab5e953229f3073036a6fdcdae8.png";
+import invertedPyramidImg from "figma:asset/e36022184115dfc5007fa8e07c92c493bf0291af.png";
+import interactionMapImg from "figma:asset/fba6a3712e6ca01ba32f4bc423e4a388d9ae7747.png";
+import processTimelineImg from "figma:asset/1dd73ea68703395b90196c03b73b5eee472f7cb3.png";
+import personaPlayer from "figma:asset/32ba610b20172c414498949f41c3ae78826c17b4.png";
+import personaCoach from "figma:asset/85fe9f72991ba7e49eee2050087b6bcd1f58146d.png";
+import personaParent from "figma:asset/b143843b772683e60a885eb6347511dbec247fbd.png";
+import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import Slider from "react-slick";
 
 export function XenithWebsitePage() {
   const ref = useRef(null);
@@ -150,9 +193,12 @@ export function XenithWebsitePage() {
               In the 10-week time span, I collaborated with marketing strategists, product managers, software engineers, and my design mentor Charles, to conduct research, design, prototype, iterate, and finally created seamless and logical user experience, which helped to enhance the number of page views and online purchase.
             </p>
             <div className="mb-8">
-              <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-              </div>
+              <ImageWithFallback
+                src={processTimelineImg}
+                alt="Design Process Timeline"
+                className="w-full h-auto"
+                style={{ borderRadius: '10px' }}
+              />
             </div>
             <div className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
               <p className="mb-4">The main projects I participated include:</p>
@@ -198,23 +244,21 @@ export function XenithWebsitePage() {
               
               {/* Two images side by side */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
+                <div className="flex flex-col">
                   <img 
-                    src={heatmapImg}
+                    src={heatmapImg1}
                     alt="Heatmap analysis"
-                    className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                    className="w-full h-auto"
                     style={{ borderRadius: '10px' }}
-                    onClick={() => setExpandedImage({ src: heatmapImg, alt: "Heatmap analysis" })}
                   />
                   <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Heatmap recording user's click on popular content</p>
                 </div>
-                <div>
+                <div className="flex flex-col">
                   <img 
-                    src={heatmapImg}
+                    src={heatmapImg2}
                     alt="Website redesign"
-                    className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                    className="w-full h-auto"
                     style={{ borderRadius: '10px' }}
-                    onClick={() => setExpandedImage({ src: heatmapImg, alt: "Website redesign" })}
                   />
                   <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Redesigned website base on user research</p>
                 </div>
@@ -232,9 +276,12 @@ export function XenithWebsitePage() {
               
               {/* Interaction Map Image */}
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+                <ImageWithFallback
+                  src={interactionMapImg}
+                  alt="Interaction Map of Xenith.com"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Interaction Map of Xenith.com</p>
               </div>
             </div>
@@ -251,15 +298,21 @@ export function XenithWebsitePage() {
               {/* Two images side by side */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                    <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                  </div>
+                  <ImageWithFallback
+                    src={previousContentStrategyImg}
+                    alt="Previous Content Strategy"
+                    className="w-full h-auto"
+                    style={{ borderRadius: '10px' }}
+                  />
                   <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Previous Content Strategy</p>
                 </div>
                 <div>
-                  <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                    <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                  </div>
+                  <ImageWithFallback
+                    src={invertedPyramidImg}
+                    alt="Inverted Pyramid Model"
+                    className="w-full h-auto"
+                    style={{ borderRadius: '10px' }}
+                  />
                   <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Inverted Pyramid Model</p>
                 </div>
               </div>
@@ -286,9 +339,41 @@ export function XenithWebsitePage() {
               
               {/* Image Carousel/Slideshow Placeholder */}
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image Carousel/Slideshow</span>
-                </div>
+                <Slider
+                  dots={true}
+                  infinite={true}
+                  speed={500}
+                  slidesToShow={1}
+                  slidesToScroll={1}
+                >
+                  <div>
+                    <ImageWithFallback
+                      src={personaPlayer}
+                      alt="Persona: Player"
+                      className="w-full h-auto"
+                      style={{ borderRadius: '10px' }}
+                    />
+                    <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Persona: Player</p>
+                  </div>
+                  <div>
+                    <ImageWithFallback
+                      src={personaCoach}
+                      alt="Persona: Coach"
+                      className="w-full h-auto"
+                      style={{ borderRadius: '10px' }}
+                    />
+                    <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Persona: Coach</p>
+                  </div>
+                  <div>
+                    <ImageWithFallback
+                      src={personaParent}
+                      alt="Persona: Parent"
+                      className="w-full h-auto"
+                      style={{ borderRadius: '10px' }}
+                    />
+                    <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Persona: Parent</p>
+                  </div>
+                </Slider>
               </div>
             </div>
             
@@ -309,9 +394,12 @@ export function XenithWebsitePage() {
               
               {/* Heuristic Evaluation Image */}
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+                <ImageWithFallback
+                  src={heuristicEvalImg}
+                  alt="Heuristic Evaluation Group Rating Results"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Heuristic Evaluation Group Rating Results</p>
               </div>
             </div>
@@ -334,9 +422,12 @@ export function XenithWebsitePage() {
               
               {/* Key Features Image */}
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+                <ImageWithFallback
+                  src={keyFeaturesImg}
+                  alt="Key Features"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
               </div>
             </div>
             
@@ -359,40 +450,52 @@ export function XenithWebsitePage() {
                   </h5>
                   
                   {/* Three iterations side by side */}
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
                     {/* Round 1 */}
-                    <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
+                    <div className="flex flex-col">
+                      <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
+                        <img
+                          src={footer1}
+                          alt="Footer - Round 1"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 1</p>
-                        <p className="text-gray-700">Scroll bar in email lists.</p>
-                        <p className="text-gray-700">Bad UX structure on any screen size.</p>
+                      <div className="mt-2">
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 1</p>
+                        <p className="text-gray-700 dark:text-gray-200">Scroll bar in email lists.</p>
+                        <p className="text-gray-700 dark:text-gray-200">Bad UX structure on any screen size.</p>
                       </div>
                     </div>
                     
                     {/* Round 2 */}
-                    <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
+                    <div className="flex flex-col">
+                      <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
+                        <img
+                          src={footer2}
+                          alt="Footer - Round 2"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 2</p>
-                        <p className="text-gray-700">Remove scroll bar.</p>
-                        <p className="text-gray-700">Better size alignment.</p>
+                      <div className="mt-2">
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 2</p>
+                        <p className="text-gray-700 dark:text-gray-200">Remove scroll bar.</p>
+                        <p className="text-gray-700 dark:text-gray-200">Better size alignment.</p>
                       </div>
                     </div>
                     
                     {/* Final Design */}
-                    <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
+                    <div className="flex flex-col">
+                      <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
+                        <img
+                          src={footer3}
+                          alt="Footer - Final Design"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Final Design</p>
-                        <p className="text-gray-700">Provide identity checkbox in email lists.</p>
-                        <p className="text-gray-700">Better UX and hierarchy in footer.</p>
+                      <div className="mt-2">
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Final Design</p>
+                        <p className="text-gray-700 dark:text-gray-200">Provide identity checkbox in email lists.</p>
+                        <p className="text-gray-700 dark:text-gray-200">Better UX and hierarchy in footer.</p>
                       </div>
                     </div>
                   </div>
@@ -405,38 +508,50 @@ export function XenithWebsitePage() {
                   </h5>
                   
                   {/* Three iterations side by side */}
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
                     {/* Round 1 */}
-                    <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
+                    <div className="flex flex-col">
+                      <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
+                        <img
+                          src={helmetLineup1}
+                          alt="Helmet Lineup - Round 1"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 1</p>
-                        <p className="text-gray-700">Too big on tablet screens</p>
+                      <div className="mt-2">
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 1</p>
+                        <p className="text-gray-700 dark:text-gray-200">Too big on tablet screens</p>
                       </div>
                     </div>
                     
                     {/* Round 2 */}
-                    <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
+                    <div className="flex flex-col">
+                      <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
+                        <img
+                          src={helmetLineup2}
+                          alt="Helmet Lineup - Round 2"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 2</p>
-                        <p className="text-gray-700">More appropriate size on tablet screens</p>
+                      <div className="mt-2">
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 2</p>
+                        <p className="text-gray-700 dark:text-gray-200">More appropriate size on tablet screens</p>
                       </div>
                     </div>
                     
                     {/* Final Design */}
-                    <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
+                    <div className="flex flex-col">
+                      <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
+                        <img
+                          src={helmetLineup3}
+                          alt="Helmet Lineup - Final Design"
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Final Design</p>
-                        <p className="text-gray-700">Hierarchical product info</p>
-                        <p className="text-gray-700">Responsive across all devices</p>
+                      <div className="mt-2">
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Final Design</p>
+                        <p className="text-gray-700 dark:text-gray-200">Hierarchical product info</p>
+                        <p className="text-gray-700 dark:text-gray-200">Responsive across all devices</p>
                       </div>
                     </div>
                   </div>
@@ -452,35 +567,44 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={mainMenu1}
+                        alt="Main Menu - Round 1"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 1</p>
-                        <p className="text-gray-700">No hover status on menu items</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 1</p>
+                        <p className="text-gray-700 dark:text-gray-200">No hover status on menu items</p>
                       </div>
                     </div>
                     
                     {/* Round 2 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={mainMenu2}
+                        alt="Main Menu - Round 2"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 2</p>
-                        <p className="text-gray-700">Hover status and arrow indicator</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 2</p>
+                        <p className="text-gray-700 dark:text-gray-200">Hover status and arrow indicator</p>
                       </div>
                     </div>
                     
                     {/* Final Design */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={mainMenu3}
+                        alt="Main Menu - Final Design"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Final Design</p>
-                        <p className="text-gray-700">Expandable menu with detailed information</p>
-                        <p className="text-gray-700">Display product categories in images</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Final Design</p>
+                        <p className="text-gray-700 dark:text-gray-200">Expandable menu with detailed information</p>
+                        <p className="text-gray-700 dark:text-gray-200">Display product categories in images</p>
                       </div>
                     </div>
                   </div>
@@ -503,34 +627,43 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={heroMobile1}
+                        alt="Hero Image UI - Round 1"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 1</p>
-                        <p className="text-gray-700">Carousel moves all around in responsive</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 1</p>
+                        <p className="text-gray-700 dark:text-gray-200">Carousel moves all around in responsive</p>
                       </div>
                     </div>
                     
                     {/* Round 2 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={heroMobile2}
+                        alt="Hero Image UI - Round 2"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 2</p>
-                        <p className="text-gray-700">Fixed carousel spot above the button</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 2</p>
+                        <p className="text-gray-700 dark:text-gray-200">Fixed carousel spot above the button</p>
                       </div>
                     </div>
                     
                     {/* Round 3 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={heroMobile3}
+                        alt="Hero Image UI - Round 3"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 3</p>
-                        <p className="text-gray-700">Replace carousel with the latest tech/product</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 3</p>
+                        <p className="text-gray-700 dark:text-gray-200">Replace carousel with the latest tech/product</p>
                       </div>
                     </div>
                   </div>
@@ -546,34 +679,43 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={compareHelmet1}
+                        alt="Compare Helmets Chart - Round 1"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 1</p>
-                        <p className="text-gray-700">Non-responsive interface</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 1</p>
+                        <p className="text-gray-700 dark:text-gray-200">Non-responsive interface</p>
                       </div>
                     </div>
                     
                     {/* Round 2 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={compareHelmet2}
+                        alt="Compare Helmets Chart - Round 2"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 2</p>
-                        <p className="text-gray-700">Small font and requires scroll around too much</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 2</p>
+                        <p className="text-gray-700 dark:text-gray-200">Small font and requires scroll around too much</p>
                       </div>
                     </div>
                     
                     {/* Round 3 */}
                     <div>
-                      <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                        <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                      </div>
+                      <img
+                        src={compareHelmet3}
+                        alt="Compare Helmets Chart - Round 3"
+                        className="w-full h-[600px] object-cover object-top"
+                        style={{ borderRadius: '10px' }}
+                      />
                       <div className="mt-4">
-                        <p className="text-gray-900" style={{ fontWeight: 'bold' }}>Round 3</p>
-                        <p className="text-gray-700">Compare back and forth with flip-through cards</p>
+                        <p className="text-gray-900 dark:text-gray-100" style={{ fontWeight: 'bold' }}>Round 3</p>
+                        <p className="text-gray-700 dark:text-gray-200">Compare back and forth with flip-through cards</p>
                       </div>
                     </div>
                   </div>
@@ -593,13 +735,87 @@ export function XenithWebsitePage() {
             
             {/* 3x3 Grid of images */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((num) => (
-                <div key={num}>
-                  <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                    <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                  </div>
-                </div>
-              ))}
+              <div>
+                <img 
+                  src={mobileApp1}
+                  alt="Mobile App Mockup 1"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp1, alt: "Mobile App Mockup 1" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp2}
+                  alt="Mobile App Mockup 2"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp2, alt: "Mobile App Mockup 2" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp3}
+                  alt="Mobile App Mockup 3"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp3, alt: "Mobile App Mockup 3" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp4}
+                  alt="Mobile App Mockup 4"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp4, alt: "Mobile App Mockup 4" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp5}
+                  alt="Mobile App Mockup 5"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp5, alt: "Mobile App Mockup 5" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp6}
+                  alt="Mobile App Mockup 6"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp6, alt: "Mobile App Mockup 6" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp7}
+                  alt="Mobile App Mockup 7"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp7, alt: "Mobile App Mockup 7" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp8}
+                  alt="Mobile App Mockup 8"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp8, alt: "Mobile App Mockup 8" })}
+                />
+              </div>
+              <div>
+                <img 
+                  src={mobileApp9}
+                  alt="Mobile App Mockup 9"
+                  className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: '10px' }}
+                  onClick={() => setExpandedImage({ src: mobileApp9, alt: "Mobile App Mockup 9" })}
+                />
+              </div>
             </div>
           </div>
 
@@ -614,9 +830,12 @@ export function XenithWebsitePage() {
             
             {/* Serial User Flow Chart Image */}
             <div>
-              <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-              </div>
+              <ImageWithFallback
+                src={serialFlowChart}
+                alt="Serial User Flow Chart"
+                className="w-full h-auto"
+                style={{ borderRadius: '10px' }}
+              />
               <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Serial User Flow Chart</p>
             </div>
             
@@ -626,9 +845,12 @@ export function XenithWebsitePage() {
             
             {/* Wireframe of Product Entry System */}
             <div>
-              <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-              </div>
+              <ImageWithFallback
+                src={wireframeSystem}
+                alt="Wireframe of Product Entry System"
+                className="w-full h-auto"
+                style={{ borderRadius: '10px' }}
+              />
               <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Wireframe of Product Entry System</p>
             </div>
             
@@ -637,17 +859,23 @@ export function XenithWebsitePage() {
             </p>
             
             {/* Two images side by side */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+              <div className="flex flex-col">
+                <ImageWithFallback
+                  src={newOrderPage}
+                  alt="New Order Page (input with barcode scanner)"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">New Order Page (input with barcode scanner)</p>
               </div>
-              <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+              <div className="flex flex-col">
+                <ImageWithFallback
+                  src={orderDetailPage}
+                  alt="Order Detail Page"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Order Detail Page</p>
               </div>
             </div>
@@ -682,9 +910,12 @@ export function XenithWebsitePage() {
               
               {/* Push & Pull Model Image */}
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+                <ImageWithFallback
+                  src={pushPullModel}
+                  alt="Push & Pull Model"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Push & Pull Model</p>
               </div>
             </div>
@@ -742,15 +973,21 @@ export function XenithWebsitePage() {
             {/* Two images side by side */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+                <ImageWithFallback
+                  src={teamPhoto}
+                  alt="Photo with my team"
+                  className="w-full h-96 object-cover"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Photo with my team</p>
               </div>
               <div>
-                <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 flex items-center justify-center" style={{ borderRadius: '10px' }}>
-                  <span className="text-gray-500 dark:text-gray-400">Placeholder Image</span>
-                </div>
+                <ImageWithFallback
+                  src={hustlePhoto}
+                  alt="Hustle hard everyday!"
+                  className="w-full h-96 object-cover"
+                  style={{ borderRadius: '10px' }}
+                />
                 <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Hustle hard everyday!</p>
               </div>
             </div>

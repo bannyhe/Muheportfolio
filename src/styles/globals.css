@@ -1,6 +1,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
+@import url('https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css');
 
 :root {
   --font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
@@ -190,4 +192,55 @@
 
 html {
   font-size: var(--font-size);
+}
+
+/* Custom styles for react-slick carousel arrows */
+.slick-prev,
+.slick-next {
+  width: 50px !important;
+  height: 50px !important;
+  z-index: 10 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 50px !important;
+  opacity: 0.85 !important;
+  color: #374151 !important; /* gray-700 for light mode */
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  opacity: 1 !important;
+}
+
+/* Dark mode arrow colors */
+.dark .slick-prev:before,
+.dark .slick-next:before {
+  color: #e5e7eb !important; /* gray-200 for dark mode */
+  opacity: 0.9 !important;
+}
+
+.dark .slick-prev:hover:before,
+.dark .slick-next:hover:before {
+  opacity: 1 !important;
+}
+
+.slick-prev {
+  left: -60px !important;
+}
+
+.slick-next {
+  right: -60px !important;
+}
+
+/* For smaller screens, position arrows on top of the image */
+@media (max-width: 768px) {
+  .slick-prev {
+    left: 10px !important;
+  }
+  
+  .slick-next {
+    right: 10px !important;
+  }
 }
