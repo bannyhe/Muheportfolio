@@ -1,5 +1,7 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 import { Navigation } from "./components/Navigation";
+import logoImage from "figma:asset/2e865b77551928899c521bb60c35265013702761.png";
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
 import { ResumePage } from "./pages/ResumePage";
@@ -7,12 +9,31 @@ import { MalwarePreventionPage } from "./pages/MalwarePreventionPage";
 import { NorthstarOnboardingPage } from "./pages/NorthstarOnboardingPage";
 import { VcfNetworkPage } from "./pages/VcfNetworkPage";
 import { XenithWebsitePage } from "./pages/XenithWebsitePage";
+import { BianzhongPage } from "./pages/BianzhongPage";
+import { ZovaPage } from "./pages/ZovaPage";
+import { StoryweaverPage } from "./pages/StoryweaverPage";
+import { ContextualInquiryPage } from "./pages/ContextualInquiryPage";
 import { Toaster } from "./components/ui/sonner";
 import { Github, Linkedin, Mail, Instagram } from "lucide-react";
 import { motion } from "motion/react";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
 export default function App() {
+  useEffect(() => {
+    document.title = "MU HE";
+    
+    // Update favicon
+    const link = document.querySelector("link[rel~='icon']") as HTMLLinkElement;
+    if (link) {
+      link.href = logoImage;
+    } else {
+      const newLink = document.createElement('link');
+      newLink.rel = 'icon';
+      newLink.href = logoImage;
+      document.head.appendChild(newLink);
+    }
+  }, []);
+
   return (
     <ThemeProvider>
       <Router>
@@ -30,6 +51,10 @@ export default function App() {
               <Route path="/project/northstar-onboarding" element={<NorthstarOnboardingPage />} />
               <Route path="/project/vcf-network" element={<VcfNetworkPage />} />
               <Route path="/project/xenith-website" element={<XenithWebsitePage />} />
+              <Route path="/project/bianzhong" element={<BianzhongPage />} />
+              <Route path="/project/zova" element={<ZovaPage />} />
+              <Route path="/project/storyweaver" element={<StoryweaverPage />} />
+              <Route path="/project/contextual-inquiry" element={<ContextualInquiryPage />} />
             </Routes>
             <footer className="relative text-gray-600 dark:text-gray-300 py-8 mt-24">
               <div className="container mx-auto px-4 text-center">

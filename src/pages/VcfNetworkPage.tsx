@@ -109,7 +109,7 @@ export function VcfNetworkPage() {
                 <div className="bg-gradient-to-br from-blue-500 to-purple-600 p-4 mb-6 shadow-lg" style={{ borderRadius: '16px' }}>
                   <Lock className="w-10 h-10 text-white" />
                 </div>
-                <h2 className="text-2xl sm:text-3xl text-center mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h2 className="text-2xl sm:text-3xl text-center mb-2 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Password Protected
                 </h2>
               </div>
@@ -143,8 +143,9 @@ export function VcfNetworkPage() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg"
+                  className="w-full bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg"
                   size="lg"
+                  style={{ borderRadius: '10px' }}
                 >
                   Unlock Project
                 </Button>
@@ -213,7 +214,7 @@ export function VcfNetworkPage() {
 
               {/* Brief */}
               <div className="mb-16" id="brief">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Brief
                 </h2>
                 <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
@@ -223,7 +224,7 @@ export function VcfNetworkPage() {
 
               {/* Problem */}
               <div className="mb-16" id="problem">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Problem
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -242,7 +243,7 @@ export function VcfNetworkPage() {
 
               {/* Solution Overview */}
               <div className="mb-16" id="solution-overview">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Solution Overview
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -262,7 +263,7 @@ export function VcfNetworkPage() {
 
               {/* Design Challenge */}
               <div className="mb-16" id="design-challenge">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Design Challenge
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -281,7 +282,7 @@ export function VcfNetworkPage() {
 
               {/* Approach & Strategy */}
               <div className="mb-16" id="approach-strategy">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Approach & Strategy
                 </h2>
                 <div className="space-y-6 text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
@@ -304,7 +305,7 @@ export function VcfNetworkPage() {
 
               {/* Final Implementation */}
               <div className="mb-16" id="final-implementation">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Final Implementation
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -326,7 +327,7 @@ export function VcfNetworkPage() {
 
               {/* Impact */}
               <div className="mb-16" id="impact">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Impact
                 </h2>
                 <div className="space-y-3 text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -360,7 +361,7 @@ export function VcfNetworkPage() {
 
               {/* Learnings & Reflections */}
               <div className="mb-16" id="learnings-reflections">
-                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+                <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
                   Learnings & Reflections
                 </h2>
                 <div className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
@@ -408,25 +409,35 @@ export function VcfNetworkPage() {
           )}
 
           {/* Table of Contents - Subtle */}
-          <div className="hidden xl:block fixed top-24 right-8 w-64 p-6 z-40">
-            <h3 className="text-xs mb-4 text-gray-400 tracking-wide uppercase">On this page</h3>
-            <ul className="space-y-2">
-              {tableOfContents.map((item) => (
-                <li key={item.id} className="relative pl-3">
-                  {activeSection === item.id && (
-                    <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gray-400" />
-                  )}
-                  <button
-                    className={`text-left text-sm transition-colors ${
-                      activeSection === item.id ? 'text-gray-700' : 'text-gray-400 hover:text-gray-600'
-                    }`}
-                    onClick={() => scrollToSection(item.id)}
-                  >
-                    {item.label}
-                  </button>
-                </li>
-              ))}
-            </ul>
+          <div className="hidden xl:block fixed top-32 right-8 w-64 p-6 z-40 group">
+            {/* Collapsed state - shows icon/text */}
+            <div className="absolute top-0 right-0 opacity-100 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
+              <div className="backdrop-blur-xl bg-white/80 dark:bg-gray-800/80 border border-white/30 dark:border-gray-600/30 rounded-2xl px-4 py-3 shadow-lg">
+                <p className="text-sm text-gray-500 dark:text-gray-400">Contents →</p>
+              </div>
+            </div>
+            
+            {/* Expanded state - shows full catalog */}
+            <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-xl bg-white/80 dark:bg-gray-800/80 border border-white/30 dark:border-gray-600/30 rounded-2xl p-6 shadow-lg">
+              <h3 className="text-xs mb-4 text-gray-400 dark:text-gray-500 tracking-wide uppercase">On this page</h3>
+              <ul className="space-y-2">
+                {tableOfContents.map((item) => (
+                  <li key={item.id} className="relative pl-3">
+                    {activeSection === item.id && (
+                      <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gray-400 dark:bg-gray-600" />
+                    )}
+                    <button
+                      className={`text-left text-sm transition-colors ${
+                        activeSection === item.id ? 'text-gray-700 dark:text-gray-300' : 'text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-400'
+                      }`}
+                      onClick={() => scrollToSection(item.id)}
+                    >
+                      {item.label}
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           {/* Back to Top Button */}
@@ -435,7 +446,7 @@ export function VcfNetworkPage() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
-              className="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
+              className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
               style={{ borderRadius: '10px' }}
               onClick={scrollToTop}
             >

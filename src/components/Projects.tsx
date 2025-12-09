@@ -10,6 +10,10 @@ import malwarePreventionImg from "figma:asset/88dd6b4d57816066274655fa80d717fbf2
 import northstarOnboardingImg from "figma:asset/fd3e339f792f08cc3f189f6e2fe6748ba5bd07f3.png";
 import vcfNetworkImg from "figma:asset/501379d39119b51053303c522aca3c66a3cc264a.png";
 import xenithImg from "figma:asset/c914e17c43c35babaf274bd6f480bd6b3bc27d2c.png";
+import bianzhongImg from "figma:asset/d0a5f68029ef17e07b8dca60a474da05bd03b8d4.png";
+import zovaImg from "figma:asset/5c3a5b271ecb9a4a5bd9c13325df4aa716115163.png";
+import storyweaverImg from "figma:asset/56c35881b74973cd9a61b4e3986416932e8cda1c.png";
+import contextualInquiryImg from "figma:asset/fb3b487ff11b2ca5da762925500188d24417c150.png";
 
 const projects = [
   {
@@ -49,6 +53,46 @@ const projects = [
     description: "Collaborative task management tool with real-time updates and team features.",
     imageUrl: xenithImg,
     tags: ["React", "Firebase", "Tailwind CSS"],
+    liveUrl: "#",
+    githubUrl: "#",
+    hasDetailPage: true,
+  },
+  {
+    id: "bianzhong",
+    title: "Bianzhong - Future Museum Experience",
+    description: "Interactive museum experience design.",
+    imageUrl: bianzhongImg,
+    tags: ["UX Design", "Interactive", "Museum"],
+    liveUrl: "#",
+    githubUrl: "#",
+    hasDetailPage: true,
+  },
+  {
+    id: "zova",
+    title: "Zova - One-Handed Product Design",
+    description: "Innovative one-handed product design for improved accessibility.",
+    imageUrl: zovaImg,
+    tags: ["Product Design", "Accessibility", "Innovation"],
+    liveUrl: "#",
+    githubUrl: "#",
+    hasDetailPage: true,
+  },
+  {
+    id: "storyweaver",
+    title: "Storyweaver - UX Research",
+    description: "Comprehensive UX research and design study for digital storytelling platform.",
+    imageUrl: storyweaverImg,
+    tags: ["UX Research", "User Testing", "Digital Platform"],
+    liveUrl: "#",
+    githubUrl: "#",
+    hasDetailPage: true,
+  },
+  {
+    id: "contextual-inquiry",
+    title: "Contextual Inquiry - MOOC Financial Tracking",
+    description: "Contextual inquiry research for MOOC financial tracking and management system.",
+    imageUrl: contextualInquiryImg,
+    tags: ["UX Research", "Contextual Inquiry", "MOOC"],
     liveUrl: "#",
     githubUrl: "#",
     hasDetailPage: true,

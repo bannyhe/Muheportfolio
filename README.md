@@ -1,7 +1,7 @@
 
-  # Portfolio Website Redesign
+  # MU HE
 
-  This is a code bundle for Portfolio Website Redesign. The original project is available at https://www.figma.com/design/8y8cWsVV7S87vmctiCIu7R/Portfolio-Website-Redesign.
+  This is a code bundle for MU HE. The original project is available at https://www.figma.com/design/8y8cWsVV7S87vmctiCIu7R/MU-HE.
 
   ## Running the code
 

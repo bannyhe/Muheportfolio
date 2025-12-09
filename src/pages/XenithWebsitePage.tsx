@@ -173,7 +173,7 @@ export function XenithWebsitePage() {
 
           {/* Brief */}
           <div className="mb-16" id="brief">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Introduction
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -186,19 +186,21 @@ export function XenithWebsitePage() {
 
           {/* Problem */}
           <div className="mb-16" id="problem">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Process
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
               In the 10-week time span, I collaborated with marketing strategists, product managers, software engineers, and my design mentor Charles, to conduct research, design, prototype, iterate, and finally created seamless and logical user experience, which helped to enhance the number of page views and online purchase.
             </p>
             <div className="mb-8">
-              <ImageWithFallback
-                src={processTimelineImg}
-                alt="Design Process Timeline"
-                className="w-full h-auto"
-                style={{ borderRadius: '10px' }}
-              />
+              <div className="bg-white dark:bg-white p-6 md:p-8" style={{ borderRadius: '10px' }}>
+                <ImageWithFallback
+                  src={processTimelineImg}
+                  alt="Design Process Timeline"
+                  className="w-full h-auto"
+                  style={{ borderRadius: '10px' }}
+                />
+              </div>
             </div>
             <div className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed">
               <p className="mb-4">The main projects I participated include:</p>
@@ -213,7 +215,7 @@ export function XenithWebsitePage() {
 
           {/* Challenge */}
           <div className="mb-16" id="challenge">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Challenge: "We don't know what we don't know!"
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-6">
@@ -226,7 +228,7 @@ export function XenithWebsitePage() {
 
           {/* Solution Overview */}
           <div className="mb-16" id="solution-overview">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Break downs
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -276,12 +278,14 @@ export function XenithWebsitePage() {
               
               {/* Interaction Map Image */}
               <div>
-                <ImageWithFallback
-                  src={interactionMapImg}
-                  alt="Interaction Map of Xenith.com"
-                  className="w-full h-auto"
-                  style={{ borderRadius: '10px' }}
-                />
+                <div className="bg-white dark:bg-white p-6 md:p-8" style={{ borderRadius: '10px' }}>
+                  <ImageWithFallback
+                    src={interactionMapImg}
+                    alt="Interaction Map of Xenith.com"
+                    className="w-full h-auto"
+                    style={{ borderRadius: '10px' }}
+                  />
+                </div>
                 <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Interaction Map of Xenith.com</p>
               </div>
             </div>
@@ -298,21 +302,25 @@ export function XenithWebsitePage() {
               {/* Two images side by side */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <ImageWithFallback
-                    src={previousContentStrategyImg}
-                    alt="Previous Content Strategy"
-                    className="w-full h-auto"
-                    style={{ borderRadius: '10px' }}
-                  />
+                  <div className="bg-white dark:bg-white p-6 md:p-8" style={{ borderRadius: '10px' }}>
+                    <ImageWithFallback
+                      src={previousContentStrategyImg}
+                      alt="Previous Content Strategy"
+                      className="w-full h-auto"
+                      style={{ borderRadius: '10px' }}
+                    />
+                  </div>
                   <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Previous Content Strategy</p>
                 </div>
                 <div>
-                  <ImageWithFallback
-                    src={invertedPyramidImg}
-                    alt="Inverted Pyramid Model"
-                    className="w-full h-auto"
-                    style={{ borderRadius: '10px' }}
-                  />
+                  <div className="bg-white dark:bg-white p-6 md:p-8" style={{ borderRadius: '10px' }}>
+                    <ImageWithFallback
+                      src={invertedPyramidImg}
+                      alt="Inverted Pyramid Model"
+                      className="w-full h-auto"
+                      style={{ borderRadius: '10px' }}
+                    />
+                  </div>
                   <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Inverted Pyramid Model</p>
                 </div>
               </div>
@@ -321,7 +329,7 @@ export function XenithWebsitePage() {
 
           {/* Design Challenge */}
           <div className="mb-16" id="design-challenge">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               The Research
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -407,7 +415,7 @@ export function XenithWebsitePage() {
 
           {/* Approach & Strategy */}
           <div className="mb-16" id="approach-strategy">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               1. New Homepage
             </h2>
             
@@ -422,12 +430,14 @@ export function XenithWebsitePage() {
               
               {/* Key Features Image */}
               <div>
-                <ImageWithFallback
-                  src={keyFeaturesImg}
-                  alt="Key Features"
-                  className="w-full h-auto"
-                  style={{ borderRadius: '10px' }}
-                />
+                <div className="bg-white dark:bg-white p-6 md:p-8" style={{ borderRadius: '10px' }}>
+                  <ImageWithFallback
+                    src={keyFeaturesImg}
+                    alt="Key Features"
+                    className="w-full h-auto"
+                    style={{ borderRadius: '10px' }}
+                  />
+                </div>
               </div>
             </div>
             
@@ -1020,25 +1030,35 @@ export function XenithWebsitePage() {
       )}
 
       {/* Table of Contents - Subtle */}
-      <div className="hidden xl:block fixed top-24 right-8 w-64 p-6 z-40">
-        <h3 className="text-xs mb-4 text-gray-400 tracking-wide uppercase">On this page</h3>
-        <ul className="space-y-2">
-          {tableOfContents.map((item) => (
-            <li key={item.id} className="relative pl-3">
-              {activeSection === item.id && (
-                <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gray-400" />
-              )}
-              <button
-                className={`text-left text-sm transition-colors ${
-                  activeSection === item.id ? 'text-gray-700' : 'text-gray-400 hover:text-gray-600'
-                }`}
-                onClick={() => scrollToSection(item.id)}
-              >
-                {item.label}
-              </button>
-            </li>
-          ))}
-        </ul>
+      <div className="hidden xl:block fixed top-32 right-8 w-64 p-6 z-40 group">
+        {/* Collapsed state - shows icon/text */}
+        <div className="absolute top-0 right-0 opacity-100 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
+          <div className="backdrop-blur-xl bg-white/80 dark:bg-gray-800/80 border border-white/30 dark:border-gray-600/30 rounded-2xl px-4 py-3 shadow-lg">
+            <p className="text-sm text-gray-500 dark:text-gray-400">Contents →</p>
+          </div>
+        </div>
+        
+        {/* Expanded state - shows full catalog */}
+        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-xl bg-white/80 dark:bg-gray-800/80 border border-white/30 dark:border-gray-600/30 rounded-2xl p-6 shadow-lg">
+          <h3 className="text-xs mb-4 text-gray-400 dark:text-gray-500 tracking-wide uppercase">On this page</h3>
+          <ul className="space-y-2">
+            {tableOfContents.map((item) => (
+              <li key={item.id} className="relative pl-3">
+                {activeSection === item.id && (
+                  <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gray-400 dark:bg-gray-600" />
+                )}
+                <button
+                  className={`text-left text-sm transition-colors ${
+                    activeSection === item.id ? 'text-gray-700 dark:text-gray-300' : 'text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-400'
+                  }`}
+                  onClick={() => scrollToSection(item.id)}
+                >
+                  {item.label}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
 
       {/* Back to Top Button */}
@@ -1047,7 +1067,7 @@ export function XenithWebsitePage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >
