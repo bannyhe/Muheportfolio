@@ -186,7 +186,7 @@ export function StoryweaverPage() {
                   className="w-full h-auto"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-3 italic">
+                <p className="text-sm text-gray-600 dark:text-white mt-3 italic">
                   Streamlining the project outline during our initial group meeting
                 </p>
               </div>
@@ -288,7 +288,7 @@ export function StoryweaverPage() {
             <div className="mt-8">
               <Slider {...carouselSettings}>
                 <div>
-                  <img
+                  <ImageWithFallback
                     src={persona1Img}
                     alt="Persona 1 - Joseph Thomas"
                     className="w-full h-auto"
@@ -296,7 +296,7 @@ export function StoryweaverPage() {
                   />
                 </div>
                 <div>
-                  <img
+                  <ImageWithFallback
                     src={persona2Img}
                     alt="Persona 2 - Mary Buckner"
                     className="w-full h-auto"
@@ -304,7 +304,7 @@ export function StoryweaverPage() {
                   />
                 </div>
                 <div>
-                  <img
+                  <ImageWithFallback
                     src={persona3Img}
                     alt="Persona 3 - Celia Hernandez"
                     className="w-full h-auto"
@@ -345,7 +345,7 @@ export function StoryweaverPage() {
               <Button 
                 asChild
                 size="lg"
-                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 style={{ borderRadius: '10px' }}
               >
                 <a
@@ -399,7 +399,7 @@ export function StoryweaverPage() {
               <Button 
                 asChild
                 size="lg"
-                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 style={{ borderRadius: '10px' }}
               >
                 <a
@@ -450,7 +450,7 @@ export function StoryweaverPage() {
               <Button 
                 asChild
                 size="lg"
-                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 style={{ borderRadius: '10px' }}
               >
                 <a
@@ -504,7 +504,7 @@ export function StoryweaverPage() {
               <Button 
                 asChild
                 size="lg"
-                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 style={{ borderRadius: '10px' }}
               >
                 <a
@@ -569,7 +569,7 @@ export function StoryweaverPage() {
                   className="w-full h-auto"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-3 italic">
+                <p className="text-sm text-gray-600 dark:text-white mt-3 italic">
                   Group photo with my teammates
                 </p>
               </div>
@@ -584,7 +584,7 @@ export function StoryweaverPage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-[#6DB2FF] dark:to-[#5a9ae6] text-white dark:text-gray-900 p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >

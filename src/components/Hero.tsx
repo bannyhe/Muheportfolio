@@ -618,7 +618,7 @@ export function Hero() {
               <Link to="/about">
                 <Button
                   size="lg"
-                  className="gap-2 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2543] hover:to-[#153d63] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] shadow-lg cursor-pointer"
+                  className="gap-2 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2543] hover:to-[#153d63] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg cursor-pointer"
                 >
                   More About Me <ArrowRight className="w-4 h-4" />
                 </Button>

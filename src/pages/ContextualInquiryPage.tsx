@@ -4,24 +4,24 @@ import { useRef, useEffect, useState } from "react";
 import { ChevronUp } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import exampleImage from 'figma:asset/fe729219d29d839dd92bebb77136917a9758ee64.png';
-import problemStatementImage from 'figma:asset/4c363dcb43f0e7c6be107c686156e073a21d5514.png';
-import timelineImage from 'figma:asset/5c1628d4ffa9dbf8fe1a8f68c61eca3fd976654f.png';
-import backgroundImage from 'figma:asset/d85ab9598c3ab3cafa67f3961f8c0e861d53685d.png';
-import courseProductionImage from 'figma:asset/871261f8ad838b2296913736ed2a89844e33f7e4.png';
-import revenueAllocationImage from 'figma:asset/b97b1f3b7950c7c27b28b4fc6e10710061fed389.png';
-import interview1 from 'figma:asset/cce10093561868bd5cca8bc98ab88b88e4c3cc89.png';
-import interview2 from 'figma:asset/9d900acc369155c3ae8ad16f6c6d2d2d657d368b.png';
-import interview3 from 'figma:asset/5780980b68bbde21ea5edf94a6f9b61079a672ce.png';
-import interview4 from 'figma:asset/48726dfb0f130d2fdb6c9d808c77c338832a6941.png';
-import interview5 from 'figma:asset/27ceaec53f0e599e7cb7b0a9887b4b367099482c.png';
-import interview6 from 'figma:asset/d76d5b9a9a62754fe1fb1bb71c425bb89ebe9841.png';
-import affinityWallImage from 'figma:asset/f604c973f9187ae00b372c4c08c779c0972e05d4.png';
-import findingsImage from 'figma:asset/9707d37a55c3743a82d982df6159b6de8c80da51.png';
-import finalPresentationImage from 'figma:asset/bffc0b6fb29cc57be0888edca1ac527b92be886c.png';
-import groupPhotoImage from 'figma:asset/d421591420764496f29a9a1fcff7047629d501b4.png';
-import swimLaneImage from 'figma:asset/8b15e3be810b3e17aa5e5eb1b741c08c149d5f71.png';
-import interviewClientImage from 'figma:asset/6265cd4b161340c0c9cf1fbac81ce7b82cb207ac.png';
+import exampleImage from "figma:asset/fe729219d29d839dd92bebb77136917a9758ee64.png";
+import problemStatementImage from "figma:asset/4c363dcb43f0e7c6be107c686156e073a21d5514.png";
+import timelineImage from "figma:asset/5c1628d4ffa9dbf8fe1a8f68c61eca3fd976654f.png";
+import backgroundImage from "figma:asset/d85ab9598c3ab3cafa67f3961f8c0e861d53685d.png";
+import courseProductionImage from "figma:asset/871261f8ad838b2296913736ed2a89844e33f7e4.png";
+import revenueAllocationImage from "figma:asset/b97b1f3b7950c7c27b28b4fc6e10710061fed389.png";
+import interview1 from "figma:asset/cce10093561868bd5cca8bc98ab88b88e4c3cc89.png";
+import interview2 from "figma:asset/9d900acc369155c3ae8ad16f6c6d2d2d657d368b.png";
+import interview3 from "figma:asset/5780980b68bbde21ea5edf94a6f9b61079a672ce.png";
+import interview4 from "figma:asset/48726dfb0f130d2fdb6c9d808c77c338832a6941.png";
+import interview5 from "figma:asset/27ceaec53f0e599e7cb7b0a9887b4b367099482c.png";
+import interview6 from "figma:asset/d76d5b9a9a62754fe1fb1bb71c425bb89ebe9841.png";
+import affinityWallImage from "figma:asset/f604c973f9187ae00b372c4c08c779c0972e05d4.png";
+import findingsImage from "figma:asset/9707d37a55c3743a82d982df6159b6de8c80da51.png";
+import finalPresentationImage from "figma:asset/bffc0b6fb29cc57be0888edca1ac527b92be886c.png";
+import groupPhotoImage from "figma:asset/d421591420764496f29a9a1fcff7047629d501b4.png";
+import swimLaneImage from "figma:asset/8b15e3be810b3e17aa5e5eb1b741c08c149d5f71.png";
+import interviewClientImage from "figma:asset/6265cd4b161340c0c9cf1fbac81ce7b82cb207ac.png";
 import { Dialog, DialogContent, DialogTrigger, DialogTitle, DialogDescription } from "../components/ui/dialog";
 
 export function ContextualInquiryPage() {
@@ -154,7 +154,7 @@ export function ContextualInquiryPage() {
                 <Button 
                   asChild
                   size="lg"
-                  className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                  className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                   style={{ borderRadius: '10px' }}
                 >
                   <a href="https://mu-he-32jp.squarespace.com/s/AMS2-Final-Presentation.pdf" target="_blank" rel="noopener noreferrer">
@@ -235,7 +235,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-contain rounded-lg shadow-lg"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center">
                   Overview of Communication Flow of MOOC Financial Tracking
                 </p>
               </div>
@@ -260,7 +260,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-contain"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   Mythologies and Timeline of Course Production
                 </p>
               </div>
@@ -271,7 +271,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-contain"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   Sequential Model of MOOC Revenue Allocation
                 </p>
               </div>
@@ -350,7 +350,7 @@ export function ContextualInquiryPage() {
                     style={{ aspectRatio: '3.2/1' }}
                   />
                 </div>
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center">
                   Affinity Wall Overview
                 </p>
               </div>
@@ -370,7 +370,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-contain"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   Break-downs of Current MOOC Financial Tracking System
                 </p>
               </div>
@@ -426,7 +426,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-cover"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   Final Presentation
                 </p>
               </div>
@@ -446,7 +446,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-cover"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   Group photo after affinity wall walkthrough
                 </p>
               </div>
@@ -475,7 +475,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-cover"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   During interview with my initial client
                 </p>
               </div>
@@ -489,7 +489,7 @@ export function ContextualInquiryPage() {
                   className="w-full h-auto object-cover"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 italic text-center font-medium">
+                <p className="mt-3 text-sm text-gray-500 dark:text-white italic text-center font-medium">
                   Swim lane board of DEIL lab
                 </p>
               </div>
@@ -505,7 +505,7 @@ export function ContextualInquiryPage() {
               <Button 
                 asChild
                 size="lg"
-                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
                 style={{ borderRadius: '10px' }}
               >
                 <a href="https://mu-he-32jp.squarespace.com/s/For_AIAMS2_Final_Report.pdf" target="_blank" rel="noopener noreferrer">
@@ -555,7 +555,7 @@ export function ContextualInquiryPage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-[#6DB2FF] dark:to-[#5a9ae6] text-white dark:text-gray-900 p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >

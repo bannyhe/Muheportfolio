@@ -2913,10 +2913,6 @@
     }
   }
 
-  .dark\:bg-gray-800:is(.dark *) {
-    background-color: var(--color-gray-800);
-  }
-
   .dark\:bg-gray-800\/40:is(.dark *) {
     background-color: color-mix(in srgb, oklch(.278 .033 256.848) 40%, transparent);
   }
@@ -3168,6 +3164,10 @@
 
   .dark\:text-gray-500:is(.dark *) {
     color: var(--color-gray-500);
+  }
+
+  .dark\:text-gray-900:is(.dark *) {
+    color: var(--color-gray-900);
   }
 
   .dark\:text-indigo-300:is(.dark *) {

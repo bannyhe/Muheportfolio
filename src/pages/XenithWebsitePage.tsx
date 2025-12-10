@@ -253,7 +253,7 @@ export function XenithWebsitePage() {
                     className="w-full h-auto"
                     style={{ borderRadius: '10px' }}
                   />
-                  <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Heatmap recording user's click on popular content</p>
+                  <p className="text-left text-gray-700 dark:text-white mt-4">Heatmap recording user's click on popular content</p>
                 </div>
                 <div className="flex flex-col">
                   <img 
@@ -262,7 +262,7 @@ export function XenithWebsitePage() {
                     className="w-full h-auto"
                     style={{ borderRadius: '10px' }}
                   />
-                  <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Redesigned website base on user research</p>
+                  <p className="text-left text-gray-700 dark:text-white mt-4">Redesigned website base on user research</p>
                 </div>
               </div>
             </div>
@@ -286,7 +286,7 @@ export function XenithWebsitePage() {
                     style={{ borderRadius: '10px' }}
                   />
                 </div>
-                <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Interaction Map of Xenith.com</p>
+                <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Interaction Map of Xenith.com</p>
               </div>
             </div>
             
@@ -310,7 +310,7 @@ export function XenithWebsitePage() {
                       style={{ borderRadius: '10px' }}
                     />
                   </div>
-                  <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Previous Content Strategy</p>
+                  <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Previous Content Strategy</p>
                 </div>
                 <div>
                   <div className="bg-white dark:bg-white p-6 md:p-8" style={{ borderRadius: '10px' }}>
@@ -321,7 +321,7 @@ export function XenithWebsitePage() {
                       style={{ borderRadius: '10px' }}
                     />
                   </div>
-                  <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Inverted Pyramid Model</p>
+                  <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Inverted Pyramid Model</p>
                 </div>
               </div>
             </div>
@@ -361,7 +361,7 @@ export function XenithWebsitePage() {
                       className="w-full h-auto"
                       style={{ borderRadius: '10px' }}
                     />
-                    <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Persona: Player</p>
+                    <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Persona: Player</p>
                   </div>
                   <div>
                     <ImageWithFallback
@@ -370,7 +370,7 @@ export function XenithWebsitePage() {
                       className="w-full h-auto"
                       style={{ borderRadius: '10px' }}
                     />
-                    <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Persona: Coach</p>
+                    <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Persona: Coach</p>
                   </div>
                   <div>
                     <ImageWithFallback
@@ -379,7 +379,7 @@ export function XenithWebsitePage() {
                       className="w-full h-auto"
                       style={{ borderRadius: '10px' }}
                     />
-                    <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Persona: Parent</p>
+                    <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Persona: Parent</p>
                   </div>
                 </Slider>
               </div>
@@ -408,7 +408,7 @@ export function XenithWebsitePage() {
                   className="w-full h-auto"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Heuristic Evaluation Group Rating Results</p>
+                <p className="text-left text-gray-700 dark:text-white mt-4">Heuristic Evaluation Group Rating Results</p>
               </div>
             </div>
           </div>
@@ -846,7 +846,7 @@ export function XenithWebsitePage() {
                 className="w-full h-auto"
                 style={{ borderRadius: '10px' }}
               />
-              <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Serial User Flow Chart</p>
+              <p className="text-left text-gray-700 dark:text-white mt-4">Serial User Flow Chart</p>
             </div>
             
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed my-8">
@@ -861,7 +861,7 @@ export function XenithWebsitePage() {
                 className="w-full h-auto"
                 style={{ borderRadius: '10px' }}
               />
-              <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Wireframe of Product Entry System</p>
+              <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Wireframe of Product Entry System</p>
             </div>
             
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed my-8">
@@ -877,7 +877,7 @@ export function XenithWebsitePage() {
                   className="w-full h-auto"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">New Order Page (input with barcode scanner)</p>
+                <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">New Order Page (input with barcode scanner)</p>
               </div>
               <div className="flex flex-col">
                 <ImageWithFallback
@@ -886,7 +886,7 @@ export function XenithWebsitePage() {
                   className="w-full h-auto"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Order Detail Page</p>
+                <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Order Detail Page</p>
               </div>
             </div>
           </div>
@@ -926,7 +926,7 @@ export function XenithWebsitePage() {
                   className="w-full h-auto"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-left text-gray-700 dark:text-gray-200 mt-4">Push & Pull Model</p>
+                <p className="text-left text-gray-700 dark:text-white mt-4">Push & Pull Model</p>
               </div>
             </div>
           </div>
@@ -989,7 +989,7 @@ export function XenithWebsitePage() {
                   className="w-full h-96 object-cover"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Photo with my team</p>
+                <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Photo with my team</p>
               </div>
               <div>
                 <ImageWithFallback
@@ -998,7 +998,7 @@ export function XenithWebsitePage() {
                   className="w-full h-96 object-cover"
                   style={{ borderRadius: '10px' }}
                 />
-                <p className="text-left text-gray-600 dark:text-gray-400 mt-4 text-sm">Hustle hard everyday!</p>
+                <p className="text-left text-gray-600 dark:text-white mt-4 text-sm">Hustle hard everyday!</p>
               </div>
             </div>
           </div>
@@ -1067,7 +1067,7 @@ export function XenithWebsitePage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-[#6DB2FF] dark:to-[#5a9ae6] text-white dark:text-gray-900 p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >

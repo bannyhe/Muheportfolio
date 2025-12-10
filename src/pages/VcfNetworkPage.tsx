@@ -143,7 +143,7 @@ export function VcfNetworkPage() {
 
                 <Button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg"
+                  className="w-full bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] dark:from-[#6DB2FF] dark:to-[#5a9ae6] dark:hover:from-[#5a9ae6] dark:hover:to-[#4882cc] text-white dark:text-gray-900 shadow-lg"
                   size="lg"
                   style={{ borderRadius: '10px' }}
                 >
@@ -446,7 +446,7 @@ export function VcfNetworkPage() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
-              className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
+              className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-[#6DB2FF] dark:to-[#5a9ae6] text-white dark:text-gray-900 p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
               style={{ borderRadius: '10px' }}
               onClick={scrollToTop}
             >
