@@ -237,7 +237,7 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Visualize User Behaviors on Heatmap */}
             <div className="mb-8">
-              <h3 className="text-2xl leading-normal mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl leading-normal mb-6 text-[#102F56] dark:text-gray-100">
                 / Visualize User Behaviors on Heatmap
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -269,7 +269,7 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Information Architecture */}
             <div className="mb-8">
-              <h3 className="text-2xl leading-normal mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl leading-normal mb-6 text-[#102F56] dark:text-gray-100">
                 / Information Architecture
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -292,7 +292,7 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Prioritize key features by using Inverted Pyramid model */}
             <div className="mb-8">
-              <h3 className="text-2xl leading-normal mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl leading-normal mb-6 text-[#102F56] dark:text-gray-100">
                 / Prioritize key features by using Inverted Pyramid model
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -338,7 +338,7 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Understanding Users */}
             <div className="mb-8">
-              <h3 className="text-2xl mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl mb-6 text-[#102F56] dark:text-gray-100">
                 / Understanding Users
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -387,7 +387,7 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Heuristic Evaluation */}
             <div className="mb-8">
-              <h3 className="text-2xl mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl mb-6 text-[#102F56] dark:text-gray-100">
                 / Heuristic Evaluation
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -421,7 +421,7 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Key Features */}
             <div className="mb-8">
-              <h3 className="text-2xl mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl mb-6 text-[#102F56] dark:text-gray-100">
                 / Key Features
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -443,19 +443,19 @@ export function XenithWebsitePage() {
             
             {/* Subsection: Design Iteration */}
             <div className="mb-8">
-              <h3 className="text-2xl mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl mb-6 text-[#102F56] dark:text-gray-100">
                 / Design Iteration
               </h3>
               
               {/* Desktop */}
               <div className="mb-6">
-                <h4 className="text-xl mb-4 text-gray-900 dark:text-gray-100">
+                <h4 className="text-xl mb-4 text-[#102F56] dark:text-gray-100">
                   // Desktop
                 </h4>
                 
                 {/* Footer */}
                 <div className="mb-4">
-                  <h5 className="text-lg mb-3 text-gray-900 dark:text-gray-100">
+                  <h5 className="text-lg mb-3 text-[#102F56] dark:text-gray-100">
                     /// Footer
                   </h5>
                   
@@ -513,7 +513,7 @@ export function XenithWebsitePage() {
                 
                 {/* Helmet Lineup */}
                 <div className="mb-4">
-                  <h5 className="text-lg mb-3 text-gray-900 dark:text-gray-100">
+                  <h5 className="text-lg mb-3 text-[#102F56] dark:text-gray-100">
                     /// Helmet Lineup
                   </h5>
                   
@@ -569,7 +569,7 @@ export function XenithWebsitePage() {
                 
                 {/* Main Menu */}
                 <div className="mb-4">
-                  <h5 className="text-lg mb-3 text-gray-900 dark:text-gray-100">
+                  <h5 className="text-lg mb-3 text-[#102F56] dark:text-gray-100">
                     /// Main Menu
                   </h5>
                   
@@ -623,13 +623,13 @@ export function XenithWebsitePage() {
               
               {/* Mobile */}
               <div className="mb-6">
-                <h4 className="text-xl mb-4 text-gray-900 dark:text-gray-100">
+                <h4 className="text-xl mb-4 text-[#102F56] dark:text-gray-100">
                   // Mobile
                 </h4>
                 
                 {/* Hero Image UI */}
                 <div className="mb-4">
-                  <h5 className="text-lg mb-3 text-gray-900 dark:text-gray-100">
+                  <h5 className="text-lg mb-3 text-[#102F56] dark:text-gray-100">
                     /// Hero Image UI
                   </h5>
                   
@@ -681,7 +681,7 @@ export function XenithWebsitePage() {
                 
                 {/* Compare Helmets Chart */}
                 <div className="mb-4">
-                  <h5 className="text-lg mb-3 text-gray-900 dark:text-gray-100">
+                  <h5 className="text-lg mb-3 text-[#102F56] dark:text-gray-100">
                     /// Compare Helmets Chart
                   </h5>
                   
@@ -736,7 +736,7 @@ export function XenithWebsitePage() {
 
           {/* 2. Xenith's Mobile APP Mockups */}
           <div className="mb-16" id="mobile-app-mockups">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               2. Xenith's Mobile APP Mockups (future)
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -831,7 +831,7 @@ export function XenithWebsitePage() {
 
           {/* 3. Product Entry System UI */}
           <div className="mb-16" id="product-entry-system">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               3. Product Entry System UI
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -893,13 +893,13 @@ export function XenithWebsitePage() {
 
           {/* Final Implementation */}
           <div className="mb-16" id="final-implementation">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Reflections
             </h2>
             
             {/* Subsection: Understand B2C correlation via push & pull model */}
             <div className="mb-8">
-              <h3 className="text-2xl mb-6 text-gray-900 dark:text-gray-100">
+              <h3 className="text-2xl mb-6 text-[#102F56] dark:text-gray-100">
                 / Understand B2C correlation via push & pull model
               </h3>
               <p className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -933,7 +933,7 @@ export function XenithWebsitePage() {
 
           {/* Impact */}
           <div className="mb-16" id="impact">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Feedback
             </h2>
             
@@ -960,7 +960,7 @@ export function XenithWebsitePage() {
 
           {/* Learnings & Reflections */}
           <div className="mb-16" id="learnings-reflections">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Key Takeaways
             </h2>
             <div className="text-lg text-gray-700 dark:text-gray-200 leading-relaxed mb-8">
@@ -1067,7 +1067,7 @@ export function XenithWebsitePage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >

@@ -289,7 +289,7 @@ export function ContextualInquiryPage() {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mt-10">
               {[interview1, interview2, interview3, interview4, interview5, interview6].map((img, index) => (
                 <Dialog key={index}>
                   <DialogTrigger asChild>
@@ -302,16 +302,16 @@ export function ContextualInquiryPage() {
                       />
                     </div>
                   </DialogTrigger>
-                  <DialogContent className="max-w-4xl w-full p-1 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-none">
+                  <DialogContent className="max-w-[95vw] w-auto p-2 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-none">
                      <DialogTitle className="sr-only">Contextual Inquiry Interview {index + 1}</DialogTitle>
                      <DialogDescription className="sr-only">
                         Detailed view of the interview notes and observations for participant {index + 1}
                      </DialogDescription>
-                     <div className="relative w-full h-auto">
+                     <div className="relative flex items-center justify-center">
                         <ImageWithFallback
                           src={img}
                           alt={`Contextual Inquiry Interview ${index + 1}`}
-                          className="w-full h-auto max-h-[85vh] object-contain rounded-md"
+                          className="max-w-full max-h-[90vh] w-auto h-auto object-contain rounded-md"
                         />
                      </div>
                   </DialogContent>
@@ -555,7 +555,7 @@ export function ContextualInquiryPage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >

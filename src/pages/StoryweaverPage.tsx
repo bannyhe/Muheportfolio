@@ -342,16 +342,20 @@ export function StoryweaverPage() {
             
             {/* View Full Report Button */}
             <div className="flex justify-center mt-8">
-              <a
-                href="https://www.muheportfolio.com/s/Design-MASALa_Comparative-Evaluation-Report.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
+              <Button 
+                asChild
+                size="lg"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                style={{ borderRadius: '10px' }}
               >
-                <Button className="bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" style={{ borderRadius: '10px' }}>
+                <a
+                  href="https://www.muheportfolio.com/s/Design-MASALa_Comparative-Evaluation-Report.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Full Report
-                </Button>
-              </a>
+                </a>
+              </Button>
             </div>
             
             {/* Comparative Table Image */}
@@ -392,16 +396,20 @@ export function StoryweaverPage() {
             
             {/* View Full Report Button */}
             <div className="flex justify-center mt-8">
-              <a
-                href="https://www.muheportfolio.com/s/Design-MASALa_Survey-Report.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
+              <Button 
+                asChild
+                size="lg"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                style={{ borderRadius: '10px' }}
               >
-                <Button className="bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" style={{ borderRadius: '10px' }}>
+                <a
+                  href="https://www.muheportfolio.com/s/Design-MASALa_Survey-Report.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Full Report
-                </Button>
-              </a>
+                </a>
+              </Button>
             </div>
             
             {/* Survey Chart Image */}
@@ -439,16 +447,20 @@ export function StoryweaverPage() {
             
             {/* View Full Report Button */}
             <div className="flex justify-center mt-8">
-              <a
-                href="https://www.muheportfolio.com/s/Design-MASALa_Heuristic-Evaluation-Report.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
+              <Button 
+                asChild
+                size="lg"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                style={{ borderRadius: '10px' }}
               >
-                <Button className="bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" style={{ borderRadius: '10px' }}>
+                <a
+                  href="https://www.muheportfolio.com/s/Design-MASALa_Heuristic-Evaluation-Report.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Full Report
-                </Button>
-              </a>
+                </a>
+              </Button>
             </div>
             
             {/* Heuristics Table Image */}
@@ -489,16 +501,20 @@ export function StoryweaverPage() {
             
             {/* View Full Report Button */}
             <div className="flex justify-center mt-8">
-              <a
-                href="https://www.muheportfolio.com/s/Design-MASALa_Usability-Testing-Report.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
+              <Button 
+                asChild
+                size="lg"
+                className="px-8 h-14 text-lg font-medium bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                style={{ borderRadius: '10px' }}
               >
-                <Button className="bg-gradient-to-r from-[#102F56] to-[#1a4d7a] hover:from-[#0d2545] hover:to-[#153e62] text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" style={{ borderRadius: '10px' }}>
+                <a
+                  href="https://www.muheportfolio.com/s/Design-MASALa_Usability-Testing-Report.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Full Report
-                </Button>
-              </a>
+                </a>
+              </Button>
             </div>
           </div>
 
@@ -568,7 +584,7 @@ export function StoryweaverPage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >

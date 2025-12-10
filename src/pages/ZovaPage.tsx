@@ -601,7 +601,7 @@ export function ZovaPage() {
 
           {/* Key Takeaways */}
           <div className="mb-16" id="key-takeaways">
-            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-[#6DB2FF] dark:to-[#6DB2FF] bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl leading-tight mb-10 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] dark:from-blue-300 dark:to-blue-400 bg-clip-text text-transparent">
               Key Takeaways
             </h2>
             
@@ -687,7 +687,7 @@ export function ZovaPage() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
-          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50"
+          className="fixed bottom-8 right-8 bg-gradient-to-r from-[#102F56] to-[#1a4d7a] text-white p-4 shadow-xl hover:shadow-2xl transition-all z-50 cursor-pointer"
           style={{ borderRadius: '10px' }}
           onClick={scrollToTop}
         >
