@@ -143,7 +143,7 @@ export function Projects() {
                           </div>
                         )}
                         {project.imageUrl ? (
-                          <img
+                          <ImageWithFallback
                             src={project.imageUrl}
                             alt={project.title}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
