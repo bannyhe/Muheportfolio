@@ -135,7 +135,7 @@ export function Projects() {
                     <motion.div
                       className="cursor-pointer transition-all duration-300"
                     >
-                      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+                      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800">
                         {project.isPasswordProtected && (
                           <div className="absolute top-4 right-4 z-10 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm px-3 py-1.5 flex items-center gap-2 shadow-lg" style={{ borderRadius: '8px' }}>
                             <Lock className="w-4 h-4 text-gray-700 dark:text-gray-300" />
@@ -146,19 +146,19 @@ export function Projects() {
                           <ImageWithFallback
                             src={project.imageUrl}
                             alt={project.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
                           />
                         ) : typeof project.image === 'string' ? (
                           <ImageWithFallback
                             src={`https://source.unsplash.com/800x600/?${project.image}`}
                             alt={project.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
                           />
                         ) : (
                           <img
                             src={project.image}
                             alt={project.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
                           />
                         )}
                       </div>
@@ -171,24 +171,24 @@ export function Projects() {
                   <motion.div
                     className="transition-all duration-300"
                   >
-                    <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+                    <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800">
                       {project.imageUrl ? (
                         <img
                           src={project.imageUrl}
                           alt={project.title}
-                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
                         />
                       ) : typeof project.image === 'string' ? (
                         <ImageWithFallback
                           src={`https://source.unsplash.com/800x600/?${project.image}`}
                           alt={project.title}
-                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
                         />
                       ) : (
                         <img
                           src={project.image}
                           alt={project.title}
-                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
                         />
                       )}
                     </div>
