@@ -12,8 +12,8 @@ import vcfNetworkImg from "figma:asset/501379d39119b51053303c522aca3c66a3cc264a.
 import xenithImg from "figma:asset/c914e17c43c35babaf274bd6f480bd6b3bc27d2c.png";
 import bianzhongImg from "figma:asset/d0a5f68029ef17e07b8dca60a474da05bd03b8d4.png";
 import zovaImg from "figma:asset/5c3a5b271ecb9a4a5bd9c13325df4aa716115163.png";
-import storyweaverImg from "figma:asset/56c35881b74973cd9a61b4e3986416932e8cda1c.png";
-import contextualInquiryImg from "figma:asset/fb3b487ff11b2ca5da762925500188d24417c150.png";
+import storyweaverImg from "figma:asset/97aed2aec75db82e05a134b3b6931277818f74c9.png";
+import contextualInquiryImg from "figma:asset/fe729219d29d839dd92bebb77136917a9758ee64.png";
 
 const projects = [
   {
@@ -77,26 +77,6 @@ const projects = [
     githubUrl: "#",
     hasDetailPage: true,
   },
-  {
-    id: "storyweaver",
-    title: "Storyweaver - UX Research",
-    description: "Comprehensive UX research and design study for digital storytelling platform.",
-    imageUrl: storyweaverImg,
-    tags: ["UX Research", "User Testing", "Digital Platform"],
-    liveUrl: "#",
-    githubUrl: "#",
-    hasDetailPage: true,
-  },
-  {
-    id: "contextual-inquiry",
-    title: "Contextual Inquiry - MOOC Financial Tracking",
-    description: "Contextual inquiry research for MOOC financial tracking and management system.",
-    imageUrl: contextualInquiryImg,
-    tags: ["UX Research", "Contextual Inquiry", "MOOC"],
-    liveUrl: "#",
-    githubUrl: "#",
-    hasDetailPage: true,
-  },
 ];
 
 export function Projects() {
@@ -146,7 +126,7 @@ export function Projects() {
                           <ImageWithFallback
                             src={project.imageUrl}
                             alt={project.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100"
+                            className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 dark:brightness-90 dark:hover:brightness-100 ${project.imageClassName || ""}`}
                           />
                         ) : typeof project.image === 'string' ? (
                           <ImageWithFallback
