@@ -132,7 +132,7 @@ export function XenithWebsitePage() {
       {/* Full-width hero image */}
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto py-12">
-          <img
+          <ImageWithFallback
             src={xenithImg}
             alt="Xenith Website Redesign"
             className="w-full h-auto"
@@ -247,7 +247,7 @@ export function XenithWebsitePage() {
               {/* Two images side by side */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="flex flex-col">
-                  <img 
+                  <ImageWithFallback 
                     src={heatmapImg1}
                     alt="Heatmap analysis"
                     className="w-full h-auto"
@@ -256,7 +256,7 @@ export function XenithWebsitePage() {
                   <p className="text-left text-gray-700 dark:text-white mt-4">Heatmap recording user's click on popular content</p>
                 </div>
                 <div className="flex flex-col">
-                  <img 
+                  <ImageWithFallback 
                     src={heatmapImg2}
                     alt="Website redesign"
                     className="w-full h-auto"
@@ -464,7 +464,7 @@ export function XenithWebsitePage() {
                     {/* Round 1 */}
                     <div className="flex flex-col">
                       <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
-                        <img
+                        <ImageWithFallback
                           src={footer1}
                           alt="Footer - Round 1"
                           className="w-full h-full object-cover"
@@ -480,7 +480,7 @@ export function XenithWebsitePage() {
                     {/* Round 2 */}
                     <div className="flex flex-col">
                       <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
-                        <img
+                        <ImageWithFallback
                           src={footer2}
                           alt="Footer - Round 2"
                           className="w-full h-full object-cover"
@@ -496,7 +496,7 @@ export function XenithWebsitePage() {
                     {/* Final Design */}
                     <div className="flex flex-col">
                       <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
-                        <img
+                        <ImageWithFallback
                           src={footer3}
                           alt="Footer - Final Design"
                           className="w-full h-full object-cover"
@@ -522,7 +522,7 @@ export function XenithWebsitePage() {
                     {/* Round 1 */}
                     <div className="flex flex-col">
                       <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
-                        <img
+                        <ImageWithFallback
                           src={helmetLineup1}
                           alt="Helmet Lineup - Round 1"
                           className="w-full h-full object-cover"
@@ -537,7 +537,7 @@ export function XenithWebsitePage() {
                     {/* Round 2 */}
                     <div className="flex flex-col">
                       <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
-                        <img
+                        <ImageWithFallback
                           src={helmetLineup2}
                           alt="Helmet Lineup - Round 2"
                           className="w-full h-full object-cover"
@@ -552,7 +552,7 @@ export function XenithWebsitePage() {
                     {/* Final Design */}
                     <div className="flex flex-col">
                       <div className="w-full h-[500px] overflow-hidden" style={{ borderRadius: '10px' }}>
-                        <img
+                        <ImageWithFallback
                           src={helmetLineup3}
                           alt="Helmet Lineup - Final Design"
                           className="w-full h-full object-cover"
@@ -577,7 +577,7 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={mainMenu1}
                         alt="Main Menu - Round 1"
                         className="w-full h-[600px] object-cover object-top"
@@ -591,7 +591,7 @@ export function XenithWebsitePage() {
                     
                     {/* Round 2 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={mainMenu2}
                         alt="Main Menu - Round 2"
                         className="w-full h-[600px] object-cover object-top"
@@ -605,7 +605,7 @@ export function XenithWebsitePage() {
                     
                     {/* Final Design */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={mainMenu3}
                         alt="Main Menu - Final Design"
                         className="w-full h-[600px] object-cover object-top"
@@ -637,7 +637,7 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={heroMobile1}
                         alt="Hero Image UI - Round 1"
                         className="w-full h-[600px] object-cover object-top"
@@ -651,7 +651,7 @@ export function XenithWebsitePage() {
                     
                     {/* Round 2 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={heroMobile2}
                         alt="Hero Image UI - Round 2"
                         className="w-full h-[600px] object-cover object-top"
@@ -665,7 +665,7 @@ export function XenithWebsitePage() {
                     
                     {/* Round 3 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={heroMobile3}
                         alt="Hero Image UI - Round 3"
                         className="w-full h-[600px] object-cover object-top"
@@ -689,7 +689,7 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={compareHelmet1}
                         alt="Compare Helmets Chart - Round 1"
                         className="w-full h-[600px] object-cover object-top"
@@ -703,7 +703,7 @@ export function XenithWebsitePage() {
                     
                     {/* Round 2 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={compareHelmet2}
                         alt="Compare Helmets Chart - Round 2"
                         className="w-full h-[600px] object-cover object-top"
@@ -717,7 +717,7 @@ export function XenithWebsitePage() {
                     
                     {/* Round 3 */}
                     <div>
-                      <img
+                      <ImageWithFallback
                         src={compareHelmet3}
                         alt="Compare Helmets Chart - Round 3"
                         className="w-full h-[600px] object-cover object-top"
@@ -746,7 +746,7 @@ export function XenithWebsitePage() {
             {/* 3x3 Grid of images */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp1}
                   alt="Mobile App Mockup 1"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -755,7 +755,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp2}
                   alt="Mobile App Mockup 2"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -764,7 +764,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp3}
                   alt="Mobile App Mockup 3"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -773,7 +773,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp4}
                   alt="Mobile App Mockup 4"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -782,7 +782,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp5}
                   alt="Mobile App Mockup 5"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -791,7 +791,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp6}
                   alt="Mobile App Mockup 6"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -800,7 +800,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp7}
                   alt="Mobile App Mockup 7"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -809,7 +809,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp8}
                   alt="Mobile App Mockup 8"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -818,7 +818,7 @@ export function XenithWebsitePage() {
                 />
               </div>
               <div>
-                <img 
+                <ImageWithFallback 
                   src={mobileApp9}
                   alt="Mobile App Mockup 9"
                   className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -1018,7 +1018,7 @@ export function XenithWebsitePage() {
             <X className="w-8 h-8" />
           </button>
           <div className="max-w-7xl max-h-[90vh] relative">
-            <img
+            <ImageWithFallback
               src={expandedImage.src}
               alt={expandedImage.alt}
               className="max-w-full max-h-[90vh] object-contain"
