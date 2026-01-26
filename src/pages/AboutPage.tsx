@@ -48,7 +48,7 @@ export function AboutPage() {
           >
             <div className="space-y-6 text-lg text-gray-700 dark:text-gray-200">
               <p>
-                Mu is an aspiring product designer with 5+ years of experience, shaping the cutting-edge experience for B2B SaaS Networking & Security solutions at VMware LLC by Broadcom. Mu's design solutions have earned Gold Prize in the{" "}
+                Mu is an aspiring product designer with 6+ years of experience, shaping the cutting-edge experience for B2B SaaS Networking & Security solutions at VMware LLC by Broadcom. Mu's design solutions have earned Gold Prize in the{" "}
                 <a 
                   href="https://cybersecurity-excellence-awards.com/" 
                   target="_blank" 
