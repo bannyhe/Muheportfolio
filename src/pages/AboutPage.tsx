@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import profileImage from "figma:asset/e3d3315ec035c8b2d803c5b36797eb4d2c1a1ec1.png";
+const profileImage = "https://drive.google.com/thumbnail?id=1WezjaXsNQviYAOYTLuDC9S_Ydp35tlsV&sz=w1920";
 
 export function AboutPage() {
   const ref = useRef(null);

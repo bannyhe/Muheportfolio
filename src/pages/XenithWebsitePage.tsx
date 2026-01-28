@@ -4,49 +4,49 @@ import { useRef, useEffect, useState } from "react";
 import { ExternalLink, ChevronUp, X } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
-import xenithImg from "figma:asset/602a1beede549ed02fd7f4ef5e904bf2960ca599.png";
-import heatmapImg1 from "figma:asset/0e06fe413d696a081de471f79ecbcbc2dd90f69d.png";
-import heatmapImg2 from "figma:asset/7fd4cd5fa6b2b802fa11ecaf867f3c7d34846b77.png";
-import teamPhoto from "figma:asset/ac68fa024aee66dbf6ab965bbe0ebb2e8394738e.png";
-import hustlePhoto from "figma:asset/1e0fcaa7829f5aa15cb32e643cfc295af082bd0d.png";
-import pushPullModel from "figma:asset/b3a0190f7ab0f00d1dde0c5b7653626b8cc21dd8.png";
-import mobileApp1 from "figma:asset/c27def51bda1d46357713ec6f365ee3789340a1f.png";
-import mobileApp2 from "figma:asset/31707dff6f37790306279f203a4c2533e46f8e24.png";
-import mobileApp3 from "figma:asset/90baa765a2607c84992e459404a0400d861eb00a.png";
-import mobileApp4 from "figma:asset/261daf37ae39bd94cc7d36094189f3fb2e357572.png";
-import mobileApp5 from "figma:asset/13fd2aaf23999919655a4def363b2596c4ea6682.png";
-import mobileApp6 from "figma:asset/b8ecfca744f537ef867ea749edcd8c481964e052.png";
-import mobileApp7 from "figma:asset/c41867e085567812c89f9c4e0023cb9d8cd4322d.png";
-import mobileApp8 from "figma:asset/928f303dd6fb1562490bce10ad43c308e5fe0cfd.png";
-import mobileApp9 from "figma:asset/44631e585e50ee0077c86c65a4ff78d6908ec94d.png";
-import serialFlowChart from "figma:asset/12d8ff197022c7156629de9e4ed59abcb18b7411.png";
-import wireframeSystem from "figma:asset/8425db291823c08e84fe2832c00822181a8c441e.png";
-import newOrderPage from "figma:asset/86148be7931af10a2eeaeecd99fc2bb1e3bdceb5.png";
-import orderDetailPage from "figma:asset/2bd1add29398bd65e9626fc21e1ddc17f6b6521a.png";
-import compareHelmet1 from "figma:asset/dc91ee82393be0a2883b2eb753f00af0074c26f8.png";
-import compareHelmet2 from "figma:asset/f926992a280daef9eb74a779e08d0ea997104f09.png";
-import compareHelmet3 from "figma:asset/41a74fb554c4caaa42d3b05ed158097540644aa9.png";
-import heroMobile1 from "figma:asset/fab648aa317827c3b536668f13392c4a1234c83d.png";
-import heroMobile2 from "figma:asset/bf6a93ed89a3ceef292acf95a45f5e7d401ee839.png";
-import heroMobile3 from "figma:asset/b98ee86768d5ce1554a60bbc39bec64f149e402f.png";
-import mainMenu1 from "figma:asset/8abca5bbc0f93913c2c1b38ff2494e0545ea8758.png";
-import mainMenu2 from "figma:asset/4d94fb8dd136eb527a8993da70c56cb106764cb3.png";
-import mainMenu3 from "figma:asset/9d7600b2c4472b969969f993c9ba77dba9124fc3.png";
-import helmetLineup1 from "figma:asset/857d6504b6bbfc5ee9e14da5b751763767c5c55d.png";
-import helmetLineup2 from "figma:asset/42b7d072c1785eb69980ec30aad0042f7074c0ae.png";
-import helmetLineup3 from "figma:asset/7246e77b541cb4463f1175fa6876507e31001c4e.png";
-import footer1 from "figma:asset/8bfb277afa2904be7801a1344f9039fa1ec886a5.png";
-import footer2 from "figma:asset/f9d4b30876c143f592ba63282dbc4b478de53d77.png";
-import footer3 from "figma:asset/2d1852d2c116a18c26ec0b03dfaca08a13434179.png";
-import keyFeaturesImg from "figma:asset/e0d957dee8e356bd52fb243f1bd18922a4b36cb7.png";
-import heuristicEvalImg from "figma:asset/e16fc0fd833153760bf3152666cf5cf43f2d2de9.png";
-import previousContentStrategyImg from "figma:asset/8306d806eeadf97032a3c99a131e57233100fb0f.png";
-import invertedPyramidImg from "figma:asset/9ccf3ee76e492b2c3ee28578a443131d0cadca8c.png";
-import interactionMapImg from "figma:asset/41a4c7e2c34182c4e09f398fa2166cea8d0d322e.png";
-import processTimelineImg from "figma:asset/5181d1908d2b9de20dedba438f03828ade875dfc.png";
-import personaPlayer from "figma:asset/a72b22f20a51631057f22d1a917fb7626d3f6e91.png";
-import personaCoach from "figma:asset/ad0ebf594e3bfbe1bbdd58e00864b0bfa5f8ed60.png";
-import personaParent from "figma:asset/10892d3712b8a857f376d6d6447f7b4fbe489469.png";
+const xenithImg = "https://drive.google.com/thumbnail?id=17OW0TFFAJR1_je3X1l6pfMhUoon7zJ0y&sz=w1920";
+const heatmapImg1 = "https://drive.google.com/thumbnail?id=1jV6VGafZXFfdXrkcMYWhRkcFsEVSb2Tu&sz=w1920";
+const heatmapImg2 = "https://drive.google.com/thumbnail?id=1CCyumgW9obd6zoTBmGeQSWTHGqwX89Iu&sz=w1920";
+const teamPhoto = "https://drive.google.com/thumbnail?id=1moJecNEo8ecvFF6IYnTqhJNAZ8eBmq6Y&sz=w1920";
+const hustlePhoto = "https://drive.google.com/thumbnail?id=1MMQblHOAdDxE1eAQOi_a3kBXlh2pvI-_&sz=w1920";
+const pushPullModel = "https://drive.google.com/thumbnail?id=1Z87JnNxeiFsmdRH-ttXSOeq1qpPwc3mf&sz=w1920";
+const mobileApp1 = "https://drive.google.com/thumbnail?id=1OykKxp4cQ9PwiiieYoBMcNfiv3l4FOEq&sz=w1920";
+const mobileApp2 = "https://drive.google.com/thumbnail?id=15B7nL9jMdrgApCr-oZSw-TJe0lTWEQYc&sz=w1920";
+const mobileApp3 = "https://drive.google.com/thumbnail?id=1hmlvmurdJZ-AX1aZSTsHytp9nZFa4nHj&sz=w1920";
+const mobileApp4 = "https://drive.google.com/thumbnail?id=1Pf7Cn_mkWtOwiKicSRe6vmgQmowMuUGM&sz=w1920";
+const mobileApp5 = "https://drive.google.com/thumbnail?id=1tkyHyql2KpjNrhyofk9vy0FetYAVYPOm&sz=w1920";
+const mobileApp6 = "https://drive.google.com/thumbnail?id=1jN7z_iEU2m3ZyQsHT8BNNoGemplV6UE2&sz=w1920";
+const mobileApp7 = "https://drive.google.com/thumbnail?id=1x2fEPEfdvqAh92hjvTMevBaURov0rJ0P&sz=w1920";
+const mobileApp8 = "https://drive.google.com/thumbnail?id=1cUb6ktJQRMeBQqEfyoqXzXQGyCacCdem&sz=w1920";
+const mobileApp9 = "https://drive.google.com/thumbnail?id=1H1TBhkSOOzpHPmM3udhdH3YJNjDkMY8u&sz=w1920";
+const serialFlowChart = "https://drive.google.com/thumbnail?id=1Ag3r1VOjYsd2vdaDijIhf6LVJuSVr1SA&sz=w1920";
+const wireframeSystem = "https://drive.google.com/thumbnail?id=1DyHNQeixFOBM6dM5ojnWCBiod6Le1Wz2&sz=w1920";
+const newOrderPage = "https://drive.google.com/thumbnail?id=1KBMRa8ZIXBUm5Y_9MZmBr95h3pMt0x3Y&sz=w1920";
+const orderDetailPage = "https://drive.google.com/thumbnail?id=16Eiwnm5v1VbRFb8qOJztfAqC7ZAkQhmp&sz=w1920";
+const compareHelmet1 = "https://drive.google.com/thumbnail?id=1FMtR0lWVr4NucQ-ZwwnmwJdTB_K4QjD7&sz=w1920";
+const compareHelmet2 = "https://drive.google.com/thumbnail?id=1ti3QzaDCXeFfPTUbLSbOz2ApqJb4mdqW&sz=w1920";
+const compareHelmet3 = "https://drive.google.com/thumbnail?id=1kT63Cqljgivy43TFaasSgZnvjhxNnC_D&sz=w1920";
+const heroMobile1 = "https://drive.google.com/thumbnail?id=1Yc1VhEyQPWatPAq-qnDa75M0oXFFfh9c&sz=w1920";
+const heroMobile2 = "https://drive.google.com/thumbnail?id=1833ORGFZgdLjJZVad8IuOj3Fmj_tlRL8&sz=w1920";
+const heroMobile3 = "https://drive.google.com/thumbnail?id=1kDZmh1VVSw0FIVI64jWLzDvIVwbkqti9&sz=w1920";
+const mainMenu1 = "https://drive.google.com/thumbnail?id=1YDtd2q-AzhV6AYigSciCbn3jGT3iF3NS&sz=w1920";
+const mainMenu2 = "https://drive.google.com/thumbnail?id=1ErDpi2L1DbVqKtWUq3STm2TtS12Xwi5R&sz=w1920";
+const mainMenu3 = "https://drive.google.com/thumbnail?id=1zuOhbB_fVw8niPyRz30Cp7-qa6EYS-Yg&sz=w1920";
+const helmetLineup1 = "https://drive.google.com/thumbnail?id=18WzdDhmPSGjbf0_LpqBCcIdg5Dq_-L7T&sz=w1920";
+const helmetLineup2 = "https://drive.google.com/thumbnail?id=1sfwFVJhJmIx_fVX8WhxfgVmgms7m_Wlj&sz=w1920";
+const helmetLineup3 = "https://drive.google.com/thumbnail?id=1795efa0lADoymc5nOghYGyJ7aKPpuzOU&sz=w1920";
+const footer1 = "https://drive.google.com/thumbnail?id=1JqV-Z5_lBu8rTiHIUMH5nMcrw_WYD2MX&sz=w1920";
+const footer2 = "https://drive.google.com/thumbnail?id=1pMYJCxgIGAnHbxGBxwYXc9oS9dujqDld&sz=w1920";
+const footer3 = "https://drive.google.com/thumbnail?id=11zC8lVpjcVS7zawDuKzKhgLUQbF9-_1G&sz=w1920";
+const keyFeaturesImg = "https://drive.google.com/thumbnail?id=1AiDZqnxlIG4nglbnxDC3an5Ll5KJ3XzF&sz=w1920";
+const heuristicEvalImg = "https://drive.google.com/thumbnail?id=172i_zPQpdPxZ9lI5y33ZpASokuOHp3WF&sz=w1920";
+const previousContentStrategyImg = "https://drive.google.com/thumbnail?id=1OOVEsCVr6ROwxkcFjFqN8NXpMLBt04D1&sz=w1920";
+const invertedPyramidImg = "https://drive.google.com/thumbnail?id=1rPgVdUynB_GN-rtosyp0LGSJuJOtSukY&sz=w1920";
+const interactionMapImg = "https://drive.google.com/thumbnail?id=1G3fkbwte9OPXPg4mOKuuhJSdUoy2JC1X&sz=w1920";
+const processTimelineImg = "https://drive.google.com/thumbnail?id=1mYjjXMjcxg1bOvy_a5c0tFVI_JDCx0xr&sz=w1920";
+const personaPlayer = "https://drive.google.com/thumbnail?id=1w0TIGMXhbpswlH6OWQhCbhboE1s37_Cv&sz=w1920";
+const personaCoach = "https://drive.google.com/thumbnail?id=1gnG1Q1amJQf5zw_7qVqYh95dofUHP8Yu&sz=w1920";
+const personaParent = "https://drive.google.com/thumbnail?id=12JzGgLurkMM201bm6fLky0xOU7xuFY-T&sz=w1920";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import Slider from "react-slick";
 
@@ -347,7 +347,7 @@ export function XenithWebsitePage() {
               </p>
               
               {/* Image Carousel/Slideshow Placeholder */}
-              <div>
+              <div className="w-full relative block">
                 <Slider
                   dots={true}
                   infinite={true}
@@ -708,11 +708,11 @@ export function XenithWebsitePage() {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Round 1 */}
                     <div className="flex flex-col">
-                      <div className="w-full" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                      <div className="w-full aspect-[9/16] relative" style={{ borderRadius: '10px', overflow: 'hidden' }}>
                         <ImageWithFallback
                           src={compareHelmet1}
                           alt="Compare Helmets Chart - Round 1"
-                          className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                          className="absolute inset-0 w-full h-full object-cover object-top cursor-pointer hover:opacity-90 transition-opacity"
                           onClick={() => setExpandedImage({ src: compareHelmet1, alt: "Compare Helmets Chart - Round 1" })}
                         />
                       </div>
@@ -724,11 +724,11 @@ export function XenithWebsitePage() {
                     
                     {/* Round 2 */}
                     <div className="flex flex-col">
-                      <div className="w-full" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                      <div className="w-full aspect-[9/16] relative" style={{ borderRadius: '10px', overflow: 'hidden' }}>
                         <ImageWithFallback
                           src={compareHelmet2}
                           alt="Compare Helmets Chart - Round 2"
-                          className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                          className="absolute inset-0 w-full h-full object-cover object-top cursor-pointer hover:opacity-90 transition-opacity"
                           onClick={() => setExpandedImage({ src: compareHelmet2, alt: "Compare Helmets Chart - Round 2" })}
                         />
                       </div>
@@ -740,11 +740,11 @@ export function XenithWebsitePage() {
                     
                     {/* Round 3 */}
                     <div className="flex flex-col">
-                      <div className="w-full" style={{ borderRadius: '10px', overflow: 'hidden' }}>
+                      <div className="w-full aspect-[9/16] relative" style={{ borderRadius: '10px', overflow: 'hidden' }}>
                         <ImageWithFallback
                           src={compareHelmet3}
                           alt="Compare Helmets Chart - Round 3"
-                          className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                          className="absolute inset-0 w-full h-full object-cover object-top cursor-pointer hover:opacity-90 transition-opacity"
                           onClick={() => setExpandedImage({ src: compareHelmet3, alt: "Compare Helmets Chart - Round 3" })}
                         />
                       </div>

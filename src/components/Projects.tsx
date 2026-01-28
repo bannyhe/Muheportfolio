@@ -6,10 +6,13 @@ import { ExternalLink, Github, ArrowRight, Lock } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Link } from "react-router-dom";
-import malwarePreventionImg from "figma:asset/88dd6b4d57816066274655fa80d717fbf2bb96dd.png";
-import northstarOnboardingImg from "figma:asset/fd3e339f792f08cc3f189f6e2fe6748ba5bd07f3.png";
-import vcfNetworkImg from "figma:asset/501379d39119b51053303c522aca3c66a3cc264a.png";
-import xenithImg from "figma:asset/c914e17c43c35babaf274bd6f480bd6b3bc27d2c.png";
+
+// External project thumbnail links
+const malwarePreventionImg = "https://drive.google.com/thumbnail?id=11_e-o8v6AtoYnNBsgNKOsh_QT7IPt6ue&sz=w1920";
+const northstarOnboardingImg = "https://drive.google.com/thumbnail?id=1pYkECFpqcSB91QCI0lB-GYK4NH833NTz&sz=w1920";
+const vcfNetworkImg = "https://drive.google.com/thumbnail?id=1X309fVV7tuhg3LfdaHdF2-XoheDNVb72&sz=w1920";
+const xenithImg = "https://drive.google.com/thumbnail?id=1pWmehNi_6kY5uX85BdoIt5trK0QKcU3L&sz=w1920";
+
 import bianzhongImg from "figma:asset/d0a5f68029ef17e07b8dca60a474da05bd03b8d4.png";
 import zovaImg from "figma:asset/5c3a5b271ecb9a4a5bd9c13325df4aa716115163.png";
 import storyweaverImg from "figma:asset/97aed2aec75db82e05a134b3b6931277818f74c9.png";

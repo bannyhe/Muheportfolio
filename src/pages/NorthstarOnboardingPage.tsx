@@ -4,22 +4,22 @@ import { useRef, useEffect, useState } from "react";
 import { ExternalLink, ChevronUp, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
-import northstarOnboardingImg from "figma:asset/aa58267c0fec0302adfde53841809f22ee1df3f4.png";
-import traditionalDataCenterImg from "figma:asset/77e090505f0ce3ce64b05ac2802172796a8f6621.png";
-import challengeImg from "figma:asset/a428809a2e360ca1be02574214d18fe371c2b736.png";
-import systemDashboardImg from "figma:asset/2f6b22662b2e04ac0780dc0dc9e8edfea3e06295.png";
-import userGuideImg from "figma:asset/b4afafcda8d89027cc47862eff6d23093c084d5d.png";
-import onboardingStepsImg from "figma:asset/84d4de8d24ea1fcc9d33f803c3ef017c2fd872a9.png";
-import transitionalPageImg from "figma:asset/54593b3d1319e36e62709e1e6dd2d1bde6fe51b3.png";
-import globalHomepageImg from "figma:asset/da880aae09eaef8dfcf88a67b7bb02f7a31b53a2.png";
-import targetUserImg from "figma:asset/49c258fde229fe539a80ceca642973732fdf6552.png";
-import redefineOnboardingImg from "figma:asset/e27c4c4da4a3a710b897a30700f304da70bf22db.png";
-import designPrinciplesImg from "figma:asset/29a625291d9cad0f7d7e72851e47c37479da455e.png";
-import successMetricsImg from "figma:asset/f3153b19cde9c43e0945c42ffd7ede245fbe06dd.png";
-import optimizingWorkflowImg from "figma:asset/2fff4750a31e3800d8b7121bb5513cd2c90384c0.png";
-import workflowDiagramImg from "figma:asset/8feb6e21e65f60c8a8775289e82b2d7bfe5d48c0.png";
-import oldTransitionalPatternImg from "figma:asset/ca24947e919336a0f9fe4c1a84665ccf80527862.png";
-import proposedOnboardingGuideImg from "figma:asset/ce5062662a6c24c86c126926cf16197e13bac946.png";
+const northstarOnboardingImg = "https://drive.google.com/thumbnail?id=1HqhvHG_GfB_Uwr1V3lqtvbIfcpf18_lJ&sz=w1920";
+const traditionalDataCenterImg = "https://drive.google.com/thumbnail?id=1teQvlYsa8TiX7flMZPTPS0ua-x99LHSh&sz=w1920";
+const challengeImg = "https://drive.google.com/thumbnail?id=1yUjPT_pIef4nT_4WrXhObMpX9A8AtcTZ&sz=w1920";
+const systemDashboardImg = "https://drive.google.com/thumbnail?id=1dxRjdLi29Fnsb2KctjMUUzlnVKOXGd6R&sz=w1920";
+const userGuideImg = "https://drive.google.com/thumbnail?id=1D0289nY6WZHVC2CmO9Ru1DLbEjHoa13D&sz=w1920";
+const onboardingStepsImg = "https://drive.google.com/thumbnail?id=1NA8P9-tUQPoHH7xOUia1oq8xELl9qtAE&sz=w1920";
+const transitionalPageImg = "https://drive.google.com/thumbnail?id=10cOai88O3tVO5-C07Lh-ScBP7f6jMCb5&sz=w1920";
+const globalHomepageImg = "https://drive.google.com/thumbnail?id=1PIhrBC0UWrQmDIrp9jbUdbz9puqqMKqt&sz=w1920";
+const targetUserImg = "https://drive.google.com/thumbnail?id=1FmLV3EaJwRUPtTH5bTfTAxtZ0Md1fCUB&sz=w1920";
+const redefineOnboardingImg = "https://drive.google.com/thumbnail?id=1Sh572_jnGLglbZ_W9-yN9YiWfcQ7eb-r&sz=w1920";
+const designPrinciplesImg = "https://drive.google.com/thumbnail?id=1UGnTL2KGJjzEvUPGh3knv4t-hMkzmkHY&sz=w1920";
+const successMetricsImg = "https://drive.google.com/thumbnail?id=1NzgpPkpyDBGpGHkDP10UZF90MNNOcpTR&sz=w1920";
+const optimizingWorkflowImg = "https://drive.google.com/thumbnail?id=1MkCcv8p_RYwtxQFb_Dzg26WNisSU1PCd&sz=w1920";
+const workflowDiagramImg = "https://drive.google.com/thumbnail?id=1_oTRu66FRNoc5G8qoSNBNdJA6K0K6sDl&sz=w1920";
+const oldTransitionalPatternImg = "https://drive.google.com/thumbnail?id=1IEeRgHKtDN8M4jmuBsqn4oineXxoA3k1&sz=w1920";
+const proposedOnboardingGuideImg = "https://drive.google.com/thumbnail?id=1FrPS9qyElKePt8Pon5NII1nunM37tkUl&sz=w1920";
 
 export function NorthstarOnboardingPage() {
   const ref = useRef(null);
@@ -364,12 +364,11 @@ export function NorthstarOnboardingPage() {
                 The goal of this project is promote usage of key networking and security features, and increase the financial outcome of the product revenue when users are satisfied with the onboarding experience. Thus, I initiated a discussion with PM and engineers to track the following metrics:
               </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 overflow-hidden rounded-[10px]">
               <img
                 src={successMetricsImg}
                 alt="Success Metrics - Adoption, Revenue, Satisfaction"
-                className="w-full h-auto"
-                style={{ borderRadius: '10px' }}
+                className="w-full h-auto -my-[9%]"
               />
             </div>
           </div>

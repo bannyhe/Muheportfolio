@@ -5,7 +5,10 @@ import {
 } from "react-router-dom";
 import { useEffect } from "react";
 import { Navigation } from "./components/Navigation";
-import logoImage from "figma:asset/2e865b77551928899c521bb60c35265013702761.png";
+
+// External logo/favicon link
+const logoImage = "https://drive.google.com/thumbnail?id=18egiYJluCTnTQoA7fkoeIw69C5HCD9jP&sz=w200";
+
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
 import { ResumePage } from "./pages/ResumePage";
